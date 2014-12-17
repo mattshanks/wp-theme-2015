@@ -19,7 +19,9 @@ get_header(); ?>
 					$paper = get_post_meta( $thisPostID, 'Paper' , true );
 					$includes = get_post_meta( $thisPostID, 'Includes' , true );
 					$price = get_post_meta( $thisPostID, 'Price' , true );
-					$size = get_post_meta( $thisPostID, 'Size' , true );
+					$size = get_post_meta( $thisPostID, 'Size' , false );
+					$sizelist = implode("<br/>", $size);
+					$allsizes = implode("|", $size);
 					$stocklevel = get_post_meta( $thisPostID, 'Stock level' , true );
 					$artistnotes = get_post_meta( $thisPostID, 'Notes' , true );
 					$title = get_the_title( $ID );
@@ -55,8 +57,8 @@ get_header(); ?>
 										   <td>Archival 300gsm Watercolour Hahnemuhle Etching</td>
 										</tr>
 										<tr>
-										  <td>Size</td>
-										  <td><?php echo $size ?></td>
+										  <td>Size/s</td>
+										  <td><?php echo $sizelist ?></td>
 										</tr>
 										<tr>
 										  <td>Includes</td>
@@ -74,9 +76,11 @@ get_header(); ?>
 								  </table>
 								  <!-- <a class="btn btn-default sm-caps shopbutton" href="http://shortadventures.etsy.com"><i class="fa fa-paypal"></i> Checkout with PayPal</a> -->
 								 <?php 
-								 if ($stocklevel != '0'){
-								 	 echo do_shortcode('[wp_cart_button name="'.$title.'" price="'.$price.'" thumbnail="'.$feat_image.'" ]');
-									 //echo print_wp_cart_button_for_product("$title","$price");
+								 if ($stocklevel != '0' && sizeof($size)>1){
+								 	 echo do_shortcode('[wp_cart_button name="'.$title.'" price="'.$price.'" thumbnail="'.$feat_image.'" var1="Size|'.$allsizes.'"]');
+									 }
+									 else if ($stocklevel != '0' && sizeof($size)==1){
+									 echo do_shortcode('[wp_cart_button name="'.$title.'" price="'.$price.'" thumbnail="'.$feat_image.'"]');
 									 }
 									 else {
 									 echo "<span class='outofstock'><i class='fa fa-frown-o'></i>Sorry, this is sold out</span><br/><br/><a class='notifyme' href='mailto:hi@mattshanks.com.au?subject=I want to know when your &ldquo;$title&rdquo; print is back in&body='><i class='fa fa-envelope'></i>Tell me when more come in</a>";
