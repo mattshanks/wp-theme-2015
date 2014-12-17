@@ -364,6 +364,14 @@ margin-right: 5px;
 font-variant: normal
 }
 
+table.productdetails{
+border-bottom: 0px dashed #999;
+}
+
+table.productdetails td{
+padding-left: 0 !important;
+}
+
 
 table.productdetails a{
 color: black;
@@ -557,6 +565,26 @@ font-variant: small-caps;
 	}
 	
 }
+
+.wp_cart_variation_section{
+padding:0px;
+padding-left: 0px;
+padding-top: 0;
+margin-bottom: 5px;
+color: #707070;
+font-size: 0.9em;
+}
+
+.wp_cart_variation_name{
+display: inline-block;
+margin-bottom: 5px;
+}
+
+
+.wp_cart_variation_section select{
+display:block;
+}
+
 
 /* START MailChimp */
 
