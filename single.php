@@ -68,12 +68,15 @@ get_header(); ?>
 										  <td><a href="shipping-and-policies">Shipping</a></td>
 										  <td>FREE worldwide</td>
 										</tr>
+										<!--
 										<tr>
 										  <td>Price</td>
 										  <td><?php echo $price ?><span class='sm-caps currency'>AUD</span></td>
 										</tr>
+										-->
 									 </tbody>
 								  </table>
+								  <p><span class="price"><?php echo $price ?></span><span class='sm-caps currency'>AUD</span></p>
 								  <!-- <a class="btn btn-default sm-caps shopbutton" href="http://shortadventures.etsy.com"><i class="fa fa-paypal"></i> Checkout with PayPal</a> -->
 								 <?php 
 								 if ($stocklevel != '0' && sizeof($size)>1){
