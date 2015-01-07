@@ -283,7 +283,7 @@ padding-bottom: 0px;
 border-bottom: 0px dashed #DDD;
 }
 
-#custom-page p{
+#custom-page p, #custom-page ol{
 line-height: 2.2em;
 margin-bottom: 30px;
 }
