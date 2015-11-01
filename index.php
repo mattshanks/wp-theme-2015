@@ -28,6 +28,7 @@ get_header(); ?>
 				<h3>5 pack for <span class="price">$25</span><span class="currency">AUD inc. shipping</span></h3>
 				<a href="http://www.mattshanks.com.au/christmas-cards-2015/">Take a peek</a>
 			</div>	
+			
 	</div>
 	
 >>>>>>> parent of d35ac80... Home page banner update to live site
