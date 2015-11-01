@@ -19,7 +19,7 @@ get_header(); ?>
 	<div id="container">
 	<div class="row banner">
 			<div class="imageholder col-lg-6 col-md-6 col-sm-6">
-				<img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/ChristmasCard-banner.jpg" alt="Hark the herald angels sing" />
+				<img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/ChristmasCard-Banner.jpg" alt="Hark the herald angels sing" />
 			</div>
 			<div class="content col-lg-6 col-md-6 col-sm-6 ">
 				<h2>Christmas cards</h2>
