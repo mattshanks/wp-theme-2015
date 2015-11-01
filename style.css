@@ -437,19 +437,6 @@ font-variant: small-caps;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 300px) {
   /* 10 columns for larger screens */
   .grid-sizer {width:50%;}
@@ -522,55 +509,11 @@ font-variant: small-caps;
 	border:none;
 	}
 	
-	.banner {
-	text-align:center;
-	}
-	
-	/* Styles specifically for the feature banner */
-
-
-	.banner{
-	border-bottom: 1px solid #CCC;
-	padding-top: 0px;
-	padding-bottom: 100px;
-	text-align:center;
-	}
-	
-	.banner h2{
-	 font-variant: small-caps; 
-	 letter-spacing:0.2em;
-	}
-
-	.banner h3{
-	font-style: italic;
-	font-size: 1.2em;
-	margin-bottom: 45px;
-	letter-spacing:0.025em;
-	}
-
-	.banner .price{
-	font-style: normal;
-	font-size:1.4em;
-	}
-
-	.banner a{
-	border: 0px solid black;
-	padding: 10px 15px;
-	margin-bottom: 40px;
-	background: black;
-	color: white;
-	border-radius: 3px;
-	font-variant: small-caps;
-	}
-
-	/* END Styles specifically for the feature banner */
-	
-	
 	
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   /* 4 columns for larger screens */
   .grid-sizer {width:20%;}
   .item {width: 20%;}
@@ -603,54 +546,6 @@ font-variant: small-caps;
 	#menu-main-menu{
 	display:inline;
 	}
-	
-	/* Styles specifically for the feature banner */
-
-
-	.banner{
-	border-bottom: 1px solid #CCC;
-	padding: 20px;
-	text-align:left;
-	}
-
-	.imageholder{
-	text-align:right;
-	}
-
-	.banner .content{
-	padding-left: 60px;
-	padding-top: 30px;
-	}
-
-	.banner h2{
-	 font-variant: small-caps; 
-	 letter-spacing:0.2em;
-	}
-
-	.banner h3{
-	font-style: italic;
-	font-size: 1.2em;
-	margin-bottom: 45px;
-	letter-spacing:0.025em;
-	}
-
-	.banner .price{
-	font-style: normal;
-	font-size:1.4em;
-	}
-
-	.banner a{
-	border: 0px solid black;
-	padding: 10px 15px;
-	margin-bottom: 40px;
-	background: black;
-	color: white;
-	border-radius: 3px;
-	font-variant: small-caps;
-	}
-
-	/* END Styles specifically for the feature banner */
-	
 	   
 }
 
@@ -673,8 +568,6 @@ font-variant: small-caps;
 	display:inline;
 	}
 	
-	
-
 }
 
 .wp_cart_variation_section{
@@ -864,7 +757,6 @@ background: black !important;
 color: white !important;
 border-radius: 3px;
 }
-
 
 
 

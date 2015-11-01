@@ -68,10 +68,6 @@ get_header(); ?>
 										  <td><a href="shipping-and-policies">Shipping</a></td>
 										  <td>FREE worldwide</td>
 										</tr>
-										<tr>
-										  <td><a href="shipping-and-policies">Donation</a></td>
-										  <td>$25 from this sale goes to help Aussie wildlife</td>
-										</tr>
 										<!--
 										<tr>
 										  <td>Price</td>
@@ -84,10 +80,10 @@ get_header(); ?>
 								  <!-- <a class="btn btn-default sm-caps shopbutton" href="http://shortadventures.etsy.com"><i class="fa fa-paypal"></i> Checkout with PayPal</a> -->
 								 <?php 
 								 if ($stocklevel != '0' && sizeof($size)>1){
-								 	 echo do_shortcode('[wp_cart_button name="'.$title.'" price="$'.$price.'" thumbnail="'.$feat_image.'" var1="Size|'.$allsizes.'"]');
+								 	 echo do_shortcode('[wp_cart_button name="'.$title.'" price="'.$price.'" thumbnail="'.$feat_image.'" var1="Size|'.$allsizes.'"]');
 									 }
 									 else if ($stocklevel != '0' && sizeof($size)==1){
-									 echo do_shortcode('[wp_cart_button name="'.$title.'" price="$'.$price.'" thumbnail="'.$feat_image.'"]');
+									 echo do_shortcode('[wp_cart_button name="'.$title.'" price="'.$price.'" thumbnail="'.$feat_image.'"]');
 									 }
 									 else {
 									 echo "<span class='outofstock'><i class='fa fa-frown-o'></i>Sorry, this is sold out</span><br/><br/><a class='notifyme' href='mailto:hi@mattshanks.com.au?subject=I want to know when your &ldquo;$title&rdquo; print is back in&body='><i class='fa fa-envelope'></i>Tell me when more come in</a>";
