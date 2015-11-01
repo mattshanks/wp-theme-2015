@@ -16,7 +16,17 @@
 
 get_header(); ?>
 
-	<div id="container">
+	<div class="row banner">
+			<div class="imageholder col-lg-6 col-md-6 col-sm-6">
+				<img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/ChristmasCard-banner.jpg" alt="Hark the herald angels sing" />
+			</div>
+			<div class="content col-lg-6 col-md-6 col-sm-6 ">
+				<h2>Christmas cards</h2>
+				<h3>5 pack for <span class="price">$25</span><span class="currency">AUD inc. shipping</span></h3>
+				<a href="http://www.mattshanks.com.au/christmas-cards-2015/">Take a peek</a>
+			</div>	
+	</div>
+	
 	<div id="spinner" style="text-align:center;" class="sm-caps"></div>
 	<div class="grid-sizer"></div>
 		<?php
