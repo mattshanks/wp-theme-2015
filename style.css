@@ -538,7 +538,7 @@ font-variant: small-caps;
 	
 	.banner h2{
 	 font-variant: small-caps; 
-	 letter-spacing:0.2em;
+	 letter-spacing:0.1em;
 	}
 
 	.banner h3{
@@ -611,6 +611,7 @@ font-variant: small-caps;
 	border-bottom: 1px solid #CCC;
 	padding: 20px;
 	text-align:left;
+	padding-bottom: 40px;
 	}
 
 	.imageholder{
@@ -624,7 +625,7 @@ font-variant: small-caps;
 
 	.banner h2{
 	 font-variant: small-caps; 
-	 letter-spacing:0.2em;
+	 letter-spacing:0.1em;
 	}
 
 	.banner h3{
@@ -632,6 +633,7 @@ font-variant: small-caps;
 	font-size: 1.2em;
 	margin-bottom: 45px;
 	letter-spacing:0.025em;
+	color: #707070;
 	}
 
 	.banner .price{

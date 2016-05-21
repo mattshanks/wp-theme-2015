@@ -17,21 +17,23 @@
 get_header(); ?>
 
 	<div id="container">
-	<!--
+	
 	<div class="row banner">
-			<div class="imageholder col-lg-6 col-md-6 col-sm-6">
-				<img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/ChristmasCard-Banner.jpg" alt="Hark the herald angels sing" />
+			<div class="imageholder col-lg-5 col-md-5 col-sm-5">
+				<img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" />
 			</div>
-			<div class="content col-lg-6 col-md-6 col-sm-6 ">
-				<h2>Christmas cards</h2>
-				<h3>5 pack for <span class="price">$25</span><span class="currency">AUD inc. shipping</span></h3>
-				<a href="http://www.mattshanks.com.au/christmas-cards-2015/">Take a peek</a>
+			<div class="content col-lg-7 col-md-7 col-sm-7">
+				<h2>Row Row Row Your Boat</h2>
+				<h3>Available 1 July, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
+				<a href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes">Pre-order now</a>
 			</div>	
 			
 	</div>
-	-->
+	
 	
 	<div id="spinner" style="text-align:center;" class="sm-caps"></div>
+	<!--<span class="tk-brandon-grotesque">Here's some test text</a>-->
+	
 	<div class="grid-sizer"></div>
 		<?php
 			/*query_posts ('orderby=rand');*/
