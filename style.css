@@ -49,8 +49,6 @@ font-variant: small-caps;
 .nav{
 font-family: 'Libre Baskerville', serif;
 font-size: 0.9em;
-margin-top: 30px;
-margin-bottom: 30px;
 }
 
 .menu select {
@@ -69,8 +67,8 @@ padding: 0;
 
 ul#menu-main-menu{
 padding: 0px !important;
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 li.main-nav, li.menu-item{
@@ -519,9 +517,6 @@ font-variant: small-caps;
 	width: 250px;
 	}
 	
-	.nav{
-	display:none;
-	}
 	
 	.piece{
 	padding: 0;
@@ -531,7 +526,10 @@ font-variant: small-caps;
    width: 90%;
    margin:0 auto;
 	}
-
+	
+	ul#menu-main-menu{
+	display:none;
+	}
 	
 	ul#menu-mobile-menu {
 	display:block;
@@ -606,7 +604,7 @@ font-variant: small-caps;
 	display:none;
 	}
 	
-	#menu-main-menu, .nav{
+	ul#menu-main-menu, .nav{
 	display: block;
 	}
 	
