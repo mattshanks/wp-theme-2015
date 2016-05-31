@@ -2,13 +2,6 @@ html{
 margin:0px !important;
 }
 
-body{
-font-family: 'Libre Baskerville', serif;
-padding: 5px;
-/*background: -webkit-linear-gradient(#FFF, #F5F5F1);*/
-background: #FFF;
-}
-
 @font-face{ 
 	font-family: 'FeijoaWeb-Display';
 	src: url('webfonts/FeijoaWeb-Display.eot');
@@ -27,12 +20,18 @@ background: #FFF;
 	     url('webfonts/FeijoaWeb-Medium.svg#webfont') format('svg');
 }
 
+body{
+font-family: 'FeijoaWeb-Medium', serif;
+padding: 5px;
+/*background: -webkit-linear-gradient(#FFF, #F5F5F1);*/
+background: #FFF;
+}
 
 
 .header{
 text-align:center;
 padding: 20px;
-font-family: 'Libre Baskerville', serif;
+font-family: 'FeijoaWeb-Medium', serif;
 padding-top:40px;
 }
 
@@ -47,7 +46,7 @@ margin-top:20px;
 }
 
 .header h2{
-font-family: 'Libre Baskerville', serif;
+font-family: 'FeijoaWeb-Medium', serif;
 font-style: itali9c;
 letter-spacing: .1em;
 padding-bottom: 0px;
@@ -58,8 +57,9 @@ font-variant: small-caps;
 }
 
 .nav{
-font-family: 'Libre Baskerville', serif;
-font-size: 0.9em;
+font-family: 'FeijoaWeb-Medium', serif;
+font-size: 1em;
+letter-spacing: 0.1em;
 }
 
 .menu select {
@@ -384,7 +384,7 @@ float: left;
 padding-bottom: 0px;
 line-height: 1em;
 margin-right: 5px;
-font-variant: normal
+font-variant: normal;
 }
 
 table.productdetails{
@@ -826,7 +826,7 @@ max-width: 240px;
 min-width: 200px;
 padding: 10px 7px;
 margin: 5px 0;
-font-family: 'Libre Baskerville', serif;
+font-family: 'FeijoaWeb-Medium', serif;
 font-size: 0.8em;
 font-variant: small-caps;
 }
