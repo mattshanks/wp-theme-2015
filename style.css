@@ -9,6 +9,15 @@ padding: 5px;
 background: #FFF;
 }
 
+@font-face{ 
+	font-family: 'FeijoaWeb-Display';
+	src: url('webfonts/FeijoaWeb-Display.eot');
+	src: url('webfonts/FeijoaWeb-Display.eot?#iefix') format('embedded-opentype'),
+	     url('webfonts/FeijoaWeb-Display.woff') format('woff'),
+	     url('webfonts/FeijoaWeb-Display.ttf') format('truetype'),
+	     url('webfonts/FeijoaWeb-Display.svg#webfont') format('svg');
+}
+
 .header{
 text-align:center;
 padding: 20px;
@@ -437,18 +446,54 @@ font-variant: small-caps;
   border-radius: 75px;
 }
 
+/* Styles specifically for the feature banner */
 
 
+	.banner{
+	border-bottom: 1px solid #CCC;
+	padding-top: 0px;
+	padding-bottom: 100px;
+	font-family: 'FeijoaWeb-Display';
+	margin-top: 40px;
+	text-align:left;
+	}
 
+	.banner .imageholder{
+	text-align:right;
+	padding-right: 60px;
+	}
 
+	.banner h2{
+	 letter-spacing:0.1em;
+	 font-size: 40px;
+	}
 
+	.banner h3{
+	font-size: 1.2em;
+	margin-bottom: 45px;
+	letter-spacing:0.025em;
+	color: #707070;
+	}
 
+	.banner .price{
+	font-style: normal;
+	font-size:1.4em;
+	}
 
+	.banner a.button{
+	display: inline-block;
+	border: 0px solid black;
+	padding: 10px 15px;
+	margin-bottom: 40px;
+	background: #e30000;
+	color: white;
+	border-radius: 3px;
+	font-variant: small-caps;
+	font-size: 20px;
 
+	}
 
-
-
-
+	/* END Styles specifically for the feature banner */
 
 
 @media screen and (min-width: 300px) {
@@ -523,52 +568,16 @@ font-variant: small-caps;
 	border:none;
 	}
 	
-	.banner {
-	text-align:center;
-	}
-	
-	/* Styles specifically for the feature banner */
-
-
 	.banner{
-	border-bottom: 1px solid #CCC;
-	padding-top: 0px;
-	padding-bottom: 100px;
+	margin-top:0;
+	}
+	
+	.banner, .banner .imageholder{
 	text-align:center;
+	padding: 20px;
 	}
 	
-	.banner h2{
-	 font-variant: small-caps; 
-	 letter-spacing:0.1em;
-	}
-
-	.banner h3{
-	font-style: italic;
-	font-size: 1.2em;
-	margin-bottom: 45px;
-	letter-spacing:0.025em;
-	}
-
-	.banner .price{
-	font-style: normal;
-	font-size:1.4em;
-	}
-
-	.banner a.button{
-	border: 0px solid black;
-	padding: 10px 15px;
-	margin-bottom: 40px;
-	background: black;
-	color: white;
-	border-radius: 3px;
-	font-variant: small-caps;
-	}
-
-	/* END Styles specifically for the feature banner */
 	
-	
-	
-
 }
 
 @media screen and (min-width: 768px) {
@@ -605,54 +614,16 @@ font-variant: small-caps;
 	display:inline;
 	}
 	
-	/* Styles specifically for the feature banner */
-
-
-	.banner{
-	border-bottom: 1px solid #CCC;
-	padding: 20px;
+	.banner {
 	text-align:left;
-	padding-bottom: 40px;
 	}
-
-	.imageholder{
+	
+	.banner .imageholder{
 	text-align:right;
+	padding-right: 50px;
 	}
+	
 
-	.banner .content{
-	padding-left: 60px;
-	padding-top: 30px;
-	}
-
-	.banner h2{
-	 font-variant: small-caps; 
-	 letter-spacing:0.1em;
-	}
-
-	.banner h3{
-	font-style: italic;
-	font-size: 1.2em;
-	margin-bottom: 45px;
-	letter-spacing:0.025em;
-	color: #707070;
-	}
-
-	.banner .price{
-	font-style: normal;
-	font-size:1.4em;
-	}
-
-	.banner a.button{
-	border: 0px solid black;
-	padding: 10px 15px;
-	margin-bottom: 40px;
-	background: black;
-	color: white;
-	border-radius: 3px;
-	font-variant: small-caps;
-	}
-
-	/* END Styles specifically for the feature banner */
 	
 	   
 }
@@ -675,8 +646,7 @@ font-variant: small-caps;
 	#menu-main-menu{
 	display:inline;
 	}
-	
-	
+		
 
 }
 

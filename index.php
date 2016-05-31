@@ -19,10 +19,10 @@ get_header(); ?>
 	<div id="container">
 	
 	<div class="row banner">
-			<div class="imageholder col-lg-5 col-md-5 col-sm-5">
+			<div class="imageholder col-lg-6 col-md-6 col-sm-6">
 				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 			</div>
-			<div class="content col-lg-7 col-md-7 col-sm-7">
+			<div class="content col-lg-6 col-md-6 col-sm-6">
 				<h2>Row Row Row Your Boat</h2>
 				<h3>Available 1 July, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				<a class="button" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes">Pre-order now</a>
