@@ -18,6 +18,17 @@ background: #FFF;
 	     url('webfonts/FeijoaWeb-Display.svg#webfont') format('svg');
 }
 
+@font-face{ 
+	font-family: 'FeijoaWeb-Medium';
+	src: url('webfonts/FeijoaWeb-Medium.eot');
+	src: url('webfonts/FeijoaWeb-Medium.eot?#iefix') format('embedded-opentype'),
+	     url('webfonts/FeijoaWeb-Medium.woff') format('woff'),
+	     url('webfonts/FeijoaWeb-Medium.ttf') format('truetype'),
+	     url('webfonts/FeijoaWeb-Medium.svg#webfont') format('svg');
+}
+
+
+
 .header{
 text-align:center;
 padding: 20px;
@@ -462,7 +473,7 @@ font-variant: small-caps;
 
 	.banner h2{
 	 letter-spacing:0.1em;
-	 font-size: 40px;
+	 font-size: 46px;
 	}
 
 	.banner h3{
@@ -470,6 +481,14 @@ font-variant: small-caps;
 	margin-bottom: 45px;
 	letter-spacing:0.025em;
 	color: #707070;
+	}
+	
+	.banner p{
+	font-family: "FeijoaWeb-Medium";
+	font-size: 18px;
+	color: #333;
+	margin-top: 20px;
+	margin-bottom: 40px;
 	}
 
 	.banner .price{
@@ -493,6 +512,7 @@ font-variant: small-caps;
 	.banner a:hover{
 	background: black;
 	}
+	
 	
 
 	/* END Styles specifically for the feature banner */

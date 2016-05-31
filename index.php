@@ -22,8 +22,9 @@ get_header(); ?>
 			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6">
 				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 			</div>
-			<div class="content col-lg-6 col-md-6 col-sm-6">
+			<div class="content col-lg-4 col-md-5 col-sm-6">
 				<h2>Row Row Row Your Boat</h2>
+				<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
 				<h3>Available 1 July, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				<a class="button tk-brandon-grotesque" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes">Pre-order now</a>
 			</div>	
