@@ -490,8 +490,12 @@ font-variant: small-caps;
 	border-radius: 3px;
 	font-variant: small-caps;
 	font-size: 20px;
-
 	}
+	
+	.banner a:hover{
+	background: black;
+	}
+	
 
 	/* END Styles specifically for the feature banner */
 
