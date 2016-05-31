@@ -25,6 +25,7 @@ font-family: 'FeijoaWeb-Medium', serif;
 padding: 5px;
 /*background: -webkit-linear-gradient(#FFF, #F5F5F1);*/
 background: #FFF;
+font-size: 16px;
 }
 
 
@@ -603,6 +604,7 @@ font-variant: small-caps;
   #custom-page{
    max-width: 720px;
    margin:0 auto;
+   
    }
    
    .headerimg{
