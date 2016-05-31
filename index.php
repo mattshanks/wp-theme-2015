@@ -19,8 +19,8 @@ get_header(); ?>
 	<div id="container">
 	
 	<div class="row banner">
-			<div class="imageholder col-lg-6 col-md-6 col-sm-6">
-				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" width="350" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
+			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6">
+				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 			</div>
 			<div class="content col-lg-6 col-md-6 col-sm-6">
 				<h2>Row Row Row Your Boat</h2>

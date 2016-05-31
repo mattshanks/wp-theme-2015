@@ -457,10 +457,9 @@ font-variant: small-caps;
 	margin-top: 40px;
 	text-align:left;
 	}
-
-	.banner .imageholder{
-	text-align:right;
-	padding-right: 60px;
+	
+	.banner .feature{
+	width: 100%;
 	}
 
 	.banner h2{
@@ -521,7 +520,7 @@ font-variant: small-caps;
 	}
 	
 	.nav{
-	
+	display:none;
 	}
 	
 	.piece{
@@ -532,13 +531,7 @@ font-variant: small-caps;
    width: 90%;
    margin:0 auto;
 	}
-	
-	
-	#menu-main-menu{
-	display:none;
-	margin:0;
-	}
-	
+
 	
 	ul#menu-mobile-menu {
 	display:block;
@@ -574,12 +567,9 @@ font-variant: small-caps;
 	}
 	
 	.banner{
-	margin-top:0;
-	}
-	
-	.banner, .banner .imageholder{
 	text-align:center;
 	padding: 20px;
+	margin: 0;
 	}
 	
 	
@@ -616,21 +606,14 @@ font-variant: small-caps;
 	display:none;
 	}
 	
-	#menu-main-menu{
-	display:inline;
+	#menu-main-menu, .nav{
+	display: block;
 	}
 	
 	.banner {
 	text-align:left;
+	padding-bottom:90px;
 	}
-	
-	.banner .imageholder{
-	text-align:right;
-	padding-right: 50px;
-	}
-	
-
-	
 	   
 }
 
