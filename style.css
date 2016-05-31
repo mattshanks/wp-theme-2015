@@ -483,13 +483,14 @@ font-variant: small-caps;
 	.banner a.button{
 	display: inline-block;
 	border: 0px solid black;
-	padding: 10px 15px;
+	padding: 12px 25px;
 	margin-bottom: 40px;
 	background: #e30000;
 	color: white;
-	border-radius: 3px;
-	font-variant: small-caps;
-	font-size: 20px;
+	text-transform: uppercase;
+    border-radius: 3px;
+    letter-spacing: 0.2em;
+    font-size: 14px;
 	}
 	
 	.banner a:hover{
@@ -580,6 +581,7 @@ font-variant: small-caps;
 	text-align:center;
 	padding: 20px;
 	}
+	
 	
 	
 }

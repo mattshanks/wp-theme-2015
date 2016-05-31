@@ -25,7 +25,7 @@ get_header(); ?>
 			<div class="content col-lg-6 col-md-6 col-sm-6">
 				<h2>Row Row Row Your Boat</h2>
 				<h3>Available 1 July, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
-				<a class="button" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes">Pre-order now</a>
+				<a class="button tk-brandon-grotesque" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes">Pre-order now</a>
 			</div>	
 			
 	</div>
