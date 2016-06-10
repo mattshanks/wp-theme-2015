@@ -20,6 +20,16 @@ margin:0px !important;
 	     url('webfonts/FeijoaWeb-Medium.svg#webfont') format('svg');
 }
 
+@font-face{ 
+	font-family: 'FeijoaWeb-MediumItalic';
+	src: url('webfonts/FeijoaWeb-MediumItalic.eot');
+	src: url('webfonts/FeijoaWeb-MediumItalic.eot?#iefix') format('embedded-opentype'),
+	     url('webfonts/FeijoaWeb-MediumItalic.woff') format('woff'),
+	     url('webfonts/FeijoaWeb-MediumItalic.ttf') format('truetype'),
+	     url('webfonts/FeijoaWeb-MediumItalic.svg#webfont') format('svg');
+}
+
+
 body{
 font-family: 'FeijoaWeb-Medium', serif;
 padding: 5px;
@@ -62,6 +72,8 @@ font-family: 'FeijoaWeb-Medium', serif;
 font-size: 1em;
 letter-spacing: 0.1em;
 }
+
+
 
 .menu select {
 border: 1px solid red;
@@ -206,7 +218,7 @@ color: #707070;
 margin:0;
 padding:0;
 border:0;
-font-style:italic;
+font-family: 'FeijoaWeb-MediumItalic', serif;
 margin-top: 40px;
 }
 
@@ -275,7 +287,7 @@ text-align:center;
 font-size: 1.2em;
 margin-top: 50px;
 margin-bottom: 50px;
-font-style:italic;
+font-family: 'FeijoaWeb-MediumItalic';
 }
 
 #custom-page{
@@ -354,7 +366,7 @@ text-decoration: none;
 
 blockquote{
 font-size:1em;
-font-style: italic;
+font-family: 'FeijoaWeb-MediumItalic', serif;
 margin-left: 40px;
 padding-bottom: 5px;
 }
