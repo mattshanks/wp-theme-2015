@@ -56,10 +56,11 @@
 	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
     <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
 
+	<!--
     <script type="text/javascript">
 		var $loadingIndicator;
-
-		/*
+		
+		
 		$( function() {
   
 		  var $container = $('#container');
@@ -95,7 +96,6 @@
   
 		  return this;
 		};
-		*/
 		
 		$( function() {
 		   var $items = getItems();
@@ -113,12 +113,10 @@
 			 $container.masonry( 'appended', $item );
 		   });
   		});
-</script>  
+		</script>  
+		-->
     
-    
-    
-	<!--<script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>-->
-	<script src="https://use.typekit.net/jcs0cyg.js"></script>
+<script src="https://use.typekit.net/jcs0cyg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 

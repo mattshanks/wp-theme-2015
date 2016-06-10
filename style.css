@@ -133,11 +133,12 @@ padding-right: 40px;
 
 #container{
 width:100%;
+background:white;
 }
 
 .item{
 float:left;
-padding:0px;
+margin:0px;
 border: 1px solid #FFF;
 }
 
@@ -520,7 +521,7 @@ font-variant: small-caps;
 
 
 @media screen and (min-width: 300px) {
-  /* 10 columns for larger screens */
+  /* 2 columns for larger screens */
   .grid-sizer {width:50%;}
   .item {width: 50%}
   .item.w2 {width:50%}
@@ -540,7 +541,7 @@ font-variant: small-caps;
 	
 	
 	.piece{
-	padding: 0;
+	padding: 0px;
 	}
 	
    #custom-page{
@@ -596,7 +597,7 @@ font-variant: small-caps;
 }
 
 @media screen and (min-width: 768px) {
-  /* 4 columns for larger screens */
+  /* 5 columns for larger screens */
   .grid-sizer {width:20%;}
   .item {width: 20%;}
   .item.w2 {width:40%}
