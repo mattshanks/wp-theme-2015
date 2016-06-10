@@ -19,7 +19,7 @@
 	
 	<div id="footer" class="row">
 	<?php wp_nav_menu( array( 'container_class' => 'footermenu', 'menu' => 'Footer Menu' ) ); ?>
-	&copy; Matt Shanks 2014-2015. All rights reserved.
+	&copy; Matt Shanks 2016-2017. All rights reserved.
 	
 	</div>
 	
@@ -30,11 +30,11 @@
     
     <script type="text/javascript">
    		// initialize Masonry
-		var msnry = new Masonry( container, {
+		var $msnry = new Masonry(container, {
 			"columnWidth": ".grid-sizer"
 		} );
 		// layout Masonry again after all images have loaded
-		imagesLoaded( container, function() {
+		$msnry.imagesLoaded().progress(function() {
  	 	msnry.layout();
 		});
    </script> 

@@ -49,13 +49,13 @@ get_header(); ?>
 					if ($width > $height) {
   					  ?>
   					  <div class="item w2">
-  					  <a href="<?php echo $permalink; ?>"><img class="img-responsive" src="<?php echo $feat_image; ?> "></a>
+  					  <a href="<?php echo $permalink; ?>"><img src="<?php echo $feat_image; ?> "></a>
   					  <!--<div class="title"><?php echo the_title()?></div>-->
   					  </div>
   					  <?php
 						} else {
   					  ?>
-  					  <div class="item"><a href="<?php echo $permalink; ?>"><img class="img-responsive" src="<?php echo $feat_image; ?> "></a>
+  					  <div class="item"><a href="<?php echo $permalink; ?>"><img src="<?php echo $feat_image; ?> "></a>
   					  <!--<div class="title"><?php echo the_title()?></div>-->
   					  </div>
   					  <?php

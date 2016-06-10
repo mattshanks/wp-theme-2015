@@ -137,7 +137,6 @@ background:white;
 }
 
 .item{
-float:left;
 margin:0px;
 border: 1px solid #FFF;
 }
@@ -171,9 +170,6 @@ color: #888;
 margin: 10px;
 }
 
-.img-responsive{
-
-}
 
 .item img{
 width:100%;
@@ -598,10 +594,9 @@ font-variant: small-caps;
 
 @media screen and (min-width: 768px) {
   /* 5 columns for larger screens */
-  .grid-sizer {width:20%;}
-  .item {width: 20%;}
+  .grid-sizer, .item {width:20%;}
   .item.w2 {width:40%}
-
+  
   #custom-page{
    max-width: 720px;
    margin:0 auto;
