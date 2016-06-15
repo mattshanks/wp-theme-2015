@@ -38,6 +38,7 @@ get_header(); ?>
 	<div class="grid-sizer"></div>
 		<?php
 			/*query_posts ('orderby=rand');*/
+			query_posts ('category_name=PRINTS');
 			if ( have_posts() ) {
 				while ( have_posts() ) {
 					the_post();
