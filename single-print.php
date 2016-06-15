@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-TEST
 
 	<?php
 			if ( have_posts() ) {

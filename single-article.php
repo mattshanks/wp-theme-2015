@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-Article
 	<?php
 	
 			if ( have_posts() ) {
