@@ -15,9 +15,7 @@
 
 	<header class="entry-header">
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
-		<div class="entry-meta">
-			<span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfourteen' ) ); ?></span>
-		</div>
+		
 		<?php
 			endif;
 
@@ -32,14 +30,6 @@
 			<?php
 				if ( 'post' == get_post_type() )
 					twentyfourteen_posted_on();
-
-				if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) :
-			?>
-			<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'twentyfourteen' ), __( '1 Comment', 'twentyfourteen' ), __( '% Comments', 'twentyfourteen' ) ); ?></span>
-			<?php
-				endif;
-
-				edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
 			?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
@@ -50,6 +40,7 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
+		<!--
 		<?php
 			the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyfourteen' ) );
 			wp_link_pages( array(
@@ -59,6 +50,11 @@
 				'link_after'  => '</span>',
 			) );
 		?>
+		-->
+		
+		<?php the_excerpt(); ?>
+		
+		
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
