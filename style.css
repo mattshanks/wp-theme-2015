@@ -35,7 +35,7 @@ font-family: 'FeijoaWeb-Medium', serif;
 padding: 5px;
 /*background: -webkit-linear-gradient(#FFF, #F5F5F1);*/
 background: #FFF;
-font-size: 16px;
+font-size: 18px;
 }
 
 
@@ -98,7 +98,7 @@ margin-bottom: 40px;
 li.main-nav, li.menu-item{
 float:none;
 display:inline-block;
-font-size: 1.2em;
+font-size: 0.9em;
 }
 
 .nav-pills>li>a, .menu-item a{
@@ -119,13 +119,15 @@ border: 1px dashed #CCC;
 }
 
 .menu-item-453 a{
-background: #F1F1F1;
-border-radius: 5px;
+background: none;
+}
+
+.menu-item-453 a:before{
+
 }
 
 .menu-item-453 a:hover{
-background: black;
-color: white;
+border: 1px solid black;
 }
 
 
@@ -853,6 +855,17 @@ border: 0px solid black;
 background: black !important;
 color: white !important;
 border-radius: 3px;
+}
+
+/* article styles */
+
+#custom-page article h1.entry-title a{
+font-family: 'FeijoaWeb-Display', serif;
+font-variant:normal;
+color: black;
+border-bottom: 1px dotted black;
+margin-bottom: 20px;
+display:inline-block;
 }
 
 
