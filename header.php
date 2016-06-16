@@ -35,8 +35,8 @@
 	
 	<script src="<?php bloginfo('template_directory'); ?>/js/masonry.js"></script>
 	 <script src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.pkgd.min.js"></script>
-	 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
+	 <script src="https://use.fontawesome.com/ea99ff8ccf.js"></script>
+	 
     <!-- Bootstrap -->
     <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'>
