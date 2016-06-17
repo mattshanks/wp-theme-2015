@@ -110,7 +110,7 @@ function twentyfourteen_posted_on() {
 	}
 
 	// Set up and print post meta information.
-	printf( '<span class="entry-date"><a href="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s">%3$s</time></a></span>',
+	printf( '<span class="entry-date tk-brandon-grotesque"><a href="%1$s" rel="bookmark" class="datelink"><time class="entry-date" datetime="%2$s">%3$s</time></a></span>',
 		esc_url( get_permalink() ),
 		esc_attr( get_the_date( 'c' ) ),
 		esc_html( get_the_date() ),
@@ -194,7 +194,7 @@ function twentyfourteen_post_thumbnail() {
 		if ( ( ! is_active_sidebar( 'sidebar-2' ) || is_page_template( 'page-templates/full-width.php' ) ) ) {
 			the_post_thumbnail( 'twentyfourteen-full-width' );
 		} else {
-			the_post_thumbnail();
+			the_post_thumbnail('thumbnail');
 		}
 	?>
 	</a>

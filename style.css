@@ -301,6 +301,7 @@ font-variant: small-caps;
 letter-spacing: .1em;
 font-size: 1.4em;
 margin-bottom: 40px;
+margin-top: 60px;
 }
 
 #custom-page h3{
@@ -859,16 +860,42 @@ border-radius: 3px;
 
 /* article styles */
 
+#custom-page article{
+	text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed #707070;
+    padding-bottom: 50px;
+}
+
 #custom-page article h1.entry-title a{
 font-family: 'FeijoaWeb-Display', serif;
 font-variant:normal;
 color: black;
-border-bottom: 1px dotted black;
+border-bottom: 0;
 margin-bottom: 20px;
 display:inline-block;
 }
 
+#custom-page a.datelink{
+text-transform: uppercase;
+font-variant: normal;
+font-weight: normal;
+font-size: 0.75em;
+letter-spacing: 0.1em;
+border-bottom:0px solid;
+text-decoration:none;
+color: #707070;
+}
 
+#custom-page article h1.entry-title a:hover{
+text-decoration:underline;
+}
+
+#custom-page .post-thumbnail .wp-post-image{
+width:100%;
+height:auto;
+margin-bottom:30px;
+}
 
 
 

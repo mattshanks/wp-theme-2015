@@ -102,7 +102,7 @@ get_header(); ?>
 						<h4>Other short adventures</h4>
 							<div id="container">
 								<?php
-									$args = array( 'posts_per_page' => 20, 'exclude' => $thisPostID);
+									$args = array( 'posts_per_page' => 20, 'exclude' => $thisPostID, 'category_name' => 'prints');
 									$myposts = get_posts( $args );
 									foreach ( $myposts as $post ) : setup_postdata( $post ); 
 									$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );

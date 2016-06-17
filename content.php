@@ -14,6 +14,12 @@
 	<?php twentyfourteen_post_thumbnail(); ?>
 
 	<header class="entry-header">
+		<div class="entry-meta">
+			<?php
+				if ( 'post' == get_post_type() )
+					twentyfourteen_posted_on();
+			?>
+		</div><!-- .entry-meta -->
 		<?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) && twentyfourteen_categorized_blog() ) : ?>
 		
 		<?php
@@ -26,18 +32,14 @@
 			endif;
 		?>
 
-		<div class="entry-meta">
-			<?php
-				if ( 'post' == get_post_type() )
-					twentyfourteen_posted_on();
-			?>
-		</div><!-- .entry-meta -->
+		
 	</header><!-- .entry-header -->
 
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
+	
 	<?php else : ?>
 	<div class="entry-content">
 		<!--
@@ -52,8 +54,9 @@
 		?>
 		-->
 		
-		<?php the_excerpt(); ?>
+		<?php the_excerpt();?>
 		
+		<a href="<?php echo esc_url( get_permalink() ) ?>">Read More</a>
 		
 	</div><!-- .entry-content -->
 	<?php endif; ?>
