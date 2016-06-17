@@ -27,18 +27,18 @@ get_header(); ?>
 					?>
 					<div id="custom-page">
 						<div class="row">
+							<div class="col-sm-12">
+							<h1><?php echo $title ?></h1>
 							<div class="image">
 								<img class="img-responsive main" src="<?php echo $feat_image ?>"/>
 							</div>
-							<div class="col-sm-12">
-							<h1><?php echo $title ?></h1>
 							<div class="story">
 								  <?php echo the_content(); ?>								  
 							</div>
 							</div>
 						</div>
-						<div class="row">
-							<h2>Short articles of interest</h2>
+						<div class="row morearticles">
+							<h2>Other articles</h2>
 									<?php
 										$args = array( 'posts_per_page' => 5, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'rand');
 										$myposts = get_posts( $args );

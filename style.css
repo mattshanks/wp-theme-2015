@@ -296,6 +296,15 @@ font-family: 'FeijoaWeb-MediumItalic';
 margin: 0 auto;
 }
 
+#custom-page h1{
+font-family: 'FeijoaWeb-Display';
+font-variant: small-caps;
+letter-spacing: .1em;
+font-size: 2.4em;
+margin-bottom: 40px;
+margin-top: 60px;
+}
+
 #custom-page h2{
 font-variant: small-caps;
 letter-spacing: .1em;
@@ -861,19 +870,25 @@ border-radius: 3px;
 /* article styles */
 
 #custom-page article{
-	text-align: center;
+	text-align: left;
     margin-bottom: 50px;
     border-bottom: 1px dashed #707070;
     padding-bottom: 50px;
 }
 
-#custom-page article h1.entry-title a{
+
+#custom-page article h1.entry-title, #custom-page article h1.entry-title a{
 font-family: 'FeijoaWeb-Display', serif;
-font-variant:normal;
-color: black;
-border-bottom: 0;
-margin-bottom: 20px;
-display:inline-block;
+    font-variant: normal;
+    color: black;
+    border-bottom: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-variant: small-caps;
+    letter-spacing: .1em;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 #custom-page a.datelink{
@@ -895,6 +910,12 @@ text-decoration:underline;
 width:100%;
 height:auto;
 margin-bottom:30px;
+}
+
+.morearticles{
+margin-bottom: 80px;
+padding-bottom: 80px;
+border-bottom: 1px solid black;
 }
 
 
