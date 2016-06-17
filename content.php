@@ -34,6 +34,7 @@
 
 		
 	</header><!-- .entry-header -->
+	
 
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">

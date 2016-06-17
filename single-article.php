@@ -37,7 +37,23 @@ get_header(); ?>
 							</div>
 							</div>
 						</div>
-					</div>	
+						<div class="row">
+							<h2>Short articles of interest</h2>
+									<?php
+										$args = array( 'posts_per_page' => 5, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'rand');
+										$myposts = get_posts( $args );
+										foreach ( $myposts as $post ) : setup_postdata( $post ); 
+										$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+										?>
+										<div class="relatedarticle"><a href="<?php the_permalink(); ?>"><?php echo get_the_title($ID) ?></a></div>	
+										<?php endforeach; 
+										wp_reset_postdata();?>
+						</div>
+					
+					
+					
+					</div> <!-- End custom Page -->	
+								
 					<div class="row related">
 						<h4>Other short adventures</h4>
 							<div id="container">
