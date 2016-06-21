@@ -118,6 +118,7 @@
     
 <script src="https://use.typekit.net/jcs0cyg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
 
 <body <?php body_class(); ?>>
