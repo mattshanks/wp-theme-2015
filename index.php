@@ -26,7 +26,7 @@ get_header(); ?>
 				<h2>Row Row Row Your Boat</h2>
 				<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
 				<h3>Available 1 July, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
-				<a class="button tk-brandon-grotesque" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes">Pre-order now</a>
+				<a class="button tk-brandon-grotesque" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes" target="_blank">Buy Online</a>
 			</div>	
 			
 	</div>

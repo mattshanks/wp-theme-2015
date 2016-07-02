@@ -298,8 +298,6 @@ margin: 0 auto;
 
 #custom-page h1{
 font-family: 'FeijoaWeb-Display';
-font-variant: small-caps;
-letter-spacing: .1em;
 font-size: 2.4em;
 margin-bottom: 40px;
 margin-top: 60px;
@@ -494,7 +492,6 @@ font-variant: small-caps;
 	}
 
 	.banner h2{
-	 letter-spacing:0.1em;
 	 font-size: 46px;
 	}
 
@@ -884,8 +881,6 @@ font-family: 'FeijoaWeb-Display', serif;
     border-bottom: 0;
     margin-bottom: 20px;
     display: inline-block;
-    font-variant: small-caps;
-    letter-spacing: .1em;
     font-size: 1.4em;
     margin-bottom: 15px;
     margin-top: 10px;
