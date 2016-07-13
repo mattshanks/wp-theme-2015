@@ -303,6 +303,14 @@ margin-bottom: 40px;
 margin-top: 60px;
 }
 
+#custom-page.article h1{
+font-family: 'FeijoaWeb-Display';
+font-size: 2.4em;
+margin-bottom: 40px;
+margin-top: 60px;
+text-align:center;
+}
+
 #custom-page h2{
 font-variant: small-caps;
 letter-spacing: .1em;
