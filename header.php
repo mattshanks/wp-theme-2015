@@ -26,6 +26,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+	
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -34,8 +35,8 @@
 	<!-- Custom Code -->
 	
 	<script src="<?php bloginfo('template_directory'); ?>/js/masonry.js"></script>
-	 <script src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.pkgd.min.js"></script>
-	 <script src="https://use.fontawesome.com/ea99ff8ccf.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.pkgd.min.js"></script>
+	<script src="https://use.fontawesome.com/ea99ff8ccf.js"></script>
 	 
     <!-- Bootstrap -->
     <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
@@ -115,6 +116,47 @@
   		});
 		</script>  
 		-->
+
+<!-- Twitter Card -->
+
+<?php
+#twitter cards hack
+if(is_single() || is_page()) {
+  $twitter_url    = get_permalink();
+ $twitter_title  = get_the_title();
+ $twitter_desc   = get_the_excerpt();
+$twitter_thumb  = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+    if(!$twitter_thumb) {
+      $twitter_thumb = 'http://books.mattshanks.com.au/images/cover2.jpg';
+    }
+  $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));
+?>
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="<?php echo $twitter_url; ?>" />
+<meta name="twitter:title" content="<?php echo $twitter_title; ?>" />
+<meta name="twitter:description" content="<?php echo $twitter_desc; ?>" />
+<meta name="twitter:image" content="<?php echo $twitter_thumb; ?>" />
+<meta name="twitter:site" content="@astutely" />
+<?
+  if($twitter_name) {
+?>
+<meta name="twitter:creator" value="@<?php echo $twitter_name; ?>" />
+<?
+  }
+}
+?>    
+
+<!--<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@astutely">
+	<meta name="twitter:title" content="title">
+	<meta name="twitter:description" content="excerpt">
+	<meta name="twitter:image" content="feature image">-->
+	
+    
+    
+    
+    
+    
     
 <script src="https://use.typekit.net/jcs0cyg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
