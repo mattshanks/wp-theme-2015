@@ -122,7 +122,6 @@
 <?php
 #twitter cards hack
 if(is_single() || is_page()) {
-  $twitter_url    = get_permalink();
  $twitter_title  = get_the_title();
  $twitter_desc   = get_the_excerpt();
 $twitter_thumb  = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
@@ -132,19 +131,10 @@ $twitter_thumb  = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
   $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));
 ?>
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:url" content="<?php echo $twitter_url; ?>" />
 <meta name="twitter:title" content="<?php echo $twitter_title; ?>" />
 <meta name="twitter:description" content="<?php echo $twitter_desc; ?>" />
 <meta name="twitter:image" content="<?php echo $twitter_thumb; ?>" />
 <meta name="twitter:site" content="@astutely" />
-<?
-  if($twitter_name) {
-?>
-<meta name="twitter:creator" value="@<?php echo $twitter_name; ?>" />
-<?
-  }
-}
-?>    
 
 <!--<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@astutely">
