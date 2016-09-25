@@ -17,13 +17,6 @@ get_header(); ?>
 					$permalink = get_permalink( $id, $leavename );
 					$feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 					$title = get_the_title( $ID );
-					list($width, $height) = getimagesize($feat_image);
-					if ($width > $height){
-					$col_layout = "col-sm-7";
-					}
-					else {
-					$col_layout = "col-sm-6";
-					}
 					?>
 					<div id="custom-page" class="article">
 						<div class="row">
