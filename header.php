@@ -130,23 +130,6 @@ $twitter_thumb  = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
     }
   $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));
 ?>
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="<?php echo $twitter_title; ?>" />
-<meta name="twitter:description" content="<?php echo $twitter_desc; ?>" />
-<meta name="twitter:image" content="<?php echo $twitter_thumb; ?>" />
-<meta name="twitter:site" content="@astutely" />
-
-<!--<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@astutely">
-	<meta name="twitter:title" content="title">
-	<meta name="twitter:description" content="excerpt">
-	<meta name="twitter:image" content="feature image">-->
-	
-    
-    
-    
-    
-    
     
 <script src="https://use.typekit.net/jcs0cyg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
