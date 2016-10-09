@@ -116,20 +116,6 @@
   		});
 		</script>  
 		-->
-
-<!-- Twitter Card -->
-
-<?php
-#twitter cards hack
-if(is_single() || is_page()) {
- $twitter_title  = get_the_title();
- $twitter_desc   = get_the_excerpt();
-$twitter_thumb  = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-    if(!$twitter_thumb) {
-      $twitter_thumb = 'http://books.mattshanks.com.au/images/cover2.jpg';
-    }
-  $twitter_name   = str_replace('@', '', get_the_author_meta('twitter'));
-?>
     
 <script src="https://use.typekit.net/jcs0cyg.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>

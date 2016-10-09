@@ -20,12 +20,25 @@ get_header(); ?>
 	
 	<div class="row banner">
 			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6">
+				<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/uploads/2016/10/cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
+			</div>
+			<div class="content col-lg-4 col-md-5 col-sm-6">
+				<h2>Sleigh Ride</h2>
+				<p>The trailer is decorated, the sun is shining, there's ice in the esky and enough ice-cream for everyone... Giddy up and come along on a fun summer sleigh ride!</p>
+				<h3>Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
+				<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
+			</div>	
+			
+	</div>
+	
+	<div class="row banner">
+			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6">
 				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 			</div>
 			<div class="content col-lg-4 col-md-5 col-sm-6">
 				<h2>Row Row Row Your Boat</h2>
 				<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
-				<h3>Available 1 July, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
+				<h3>Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html" target="_blank">See more</a>
 			</div>	
 			
