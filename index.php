@@ -20,7 +20,7 @@ get_header(); ?>
 	
 	<div class="row banner">
 			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6">
-				<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
+				<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
 			</div>
 			<div class="content col-lg-4 col-md-5 col-sm-6">
 				<h2>Sleigh Ride</h2>
@@ -33,7 +33,7 @@ get_header(); ?>
 	
 	<div class="row banner">
 			<div class="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6">
-				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.png" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
+				<a class="img-link" href="http://www.readings.com.au/products/21759996/row-row-row-your-boat-aussie-nursery-rhymes"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.jpg" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 			</div>
 			<div class="content col-lg-4 col-md-5 col-sm-6">
 				<h2>Row Row Row Your Boat</h2>
