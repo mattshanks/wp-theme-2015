@@ -100,7 +100,7 @@ get_header(); ?>
 					</div>	
 					<div class="row related">
 						<h4>Other short adventures</h4>
-							<div id="container">
+							<div id="grid">
 								<?php
 									$args = array( 'posts_per_page' => 20, 'exclude' => $thisPostID, 'category_name' => 'prints');
 									$myposts = get_posts( $args );
