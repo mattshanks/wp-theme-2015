@@ -37,7 +37,7 @@
 		} );
 		// layout Masonry again after all images have loaded
 		$msnry.imagesLoaded().progress(function() {
- 	 	msnry.layout();
+ 	 	$msnry.layout();
 		});
    </script>
    
