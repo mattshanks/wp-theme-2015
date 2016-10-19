@@ -44,6 +44,7 @@
 		
 		var $grid = $('#grid').imagesLoaded( function() {
   		// init Masonry after all images have loaded
+  		document.getElementById("grid").className += " masonry";
   		$grid.masonry({
     		percentPosition: true,
 			columnWidth: '.grid-sizer',

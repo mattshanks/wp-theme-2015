@@ -150,6 +150,14 @@ width:100%;
 background:white;
 }
 
+#grid{
+visibility:hidden;
+}
+
+#grid.masonry{
+visibility:visible;
+}
+
 .item{
 border: 1px solid #EEE;
 }
