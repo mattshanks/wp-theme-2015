@@ -30,6 +30,7 @@
     
     <script type="text/javascript">
    		// initialize Masonry
+		/*
 		var $msnry = new Masonry(grid, {
 			percentPosition: true,
 			columnWidth: '.grid-sizer',
@@ -39,6 +40,18 @@
 		$msnry.imagesLoaded().progress(function() {
  	 	$msnry.layout();
 		});
+		*/
+		
+		var $grid = $('#grid').imagesLoaded( function() {
+  		// init Masonry after all images have loaded
+  		$grid.masonry({
+    		percentPosition: true,
+			columnWidth: '.grid-sizer',
+			itemSelector: '.item'
+ 		 });
+		});
+		
+		
    </script>
    
   
