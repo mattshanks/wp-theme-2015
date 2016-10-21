@@ -565,6 +565,8 @@ font-variant: small-caps;
 	/* END Styles specifically for the feature banner */
 
 
+/* START Mobile Definitions */
+
 @media screen and (min-width: 300px) {
   /* 2 columns for larger screens */
   .grid-sizer {width:50%;}
@@ -593,6 +595,12 @@ font-variant: small-caps;
    width: 90%;
    margin:0 auto;
 	}
+	
+	.article p{
+	font-size: 16px;
+	line-height: 1.4em;
+	}
+	
 	
 	ul#menu-main-menu{
 	display:none;
@@ -635,11 +643,13 @@ font-variant: small-caps;
 	text-align:center;
 	padding: 20px;
 	margin: 0;
-	}
-	
-	
+	}	
 	
 }
+
+/* ---- END Mobile Definitions */
+
+
 
 @media screen and (min-width: 768px) {
   /* 5 columns for larger screens */
