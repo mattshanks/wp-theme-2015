@@ -19,15 +19,13 @@ get_header(); ?>
 					$title = get_the_title( $ID );
 					?>
 					<div id="custom-page" class="article">
-						<div class="row">
-							<div class="col-sm-12">
+						<div class="row">	
 							<h1><?php echo $title ?></h1>
 							<div class="image">
 								<img class="img-responsive main" src="<?php echo $feat_image ?>"/>
 							</div>
 							<div class="story">
 								  <?php echo the_content(); ?>								  
-							</div>
 							</div>
 						</div>
 						<div class="row morearticles">
