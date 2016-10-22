@@ -31,12 +31,12 @@ get_header(); ?>
 						<div class="row morearticles">
 							<h2>Other articles</h2>
 									<?php
-										$args = array( 'posts_per_page' => 5, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'rand');
+										$args = array( 'posts_per_page' => 3, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'rand');
 										$myposts = get_posts( $args );
 										foreach ( $myposts as $post ) : setup_postdata( $post ); 
 										$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-										?>
-										<div class="relatedarticle"><a href="<?php the_permalink(); ?>"><?php echo get_the_title($ID) ?></a></div>	
+									?>
+										<div class="relatedarticle col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="<?php the_permalink(); ?>"><img src="<?php echo $curr_feat_image?>"/><?php echo get_the_title($ID) ?></a></div>	
 										<?php endforeach; 
 										wp_reset_postdata();?>
 						</div>

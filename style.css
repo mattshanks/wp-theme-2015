@@ -565,6 +565,25 @@ font-variant: small-caps;
 	/* END Styles specifically for the feature banner */
 
 
+.relatedarticle{
+display:inline-block;
+margin-bottom:60px;
+}
+
+.relatedarticle img{
+width: 100%;
+padding: 0px 0px 20px 0px;
+}
+
+.relatedarticle a:hover img{
+opacity:0.5;
+}
+
+
+
+
+
+
 /* START Mobile Definitions */
 
 @media screen and (max-width: 768px) {
