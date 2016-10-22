@@ -682,7 +682,7 @@ opacity:0.5;
   .item.w2 {width:40%}
   
   #custom-page{
-   width: 90%;
+   max-width: 720px;
    margin:0 auto;
    
    }
