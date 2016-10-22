@@ -567,8 +567,8 @@ font-variant: small-caps;
 
 /* START Mobile Definitions */
 
-@media screen and (min-width: 300px) {
-  /* 2 columns for larger screens */
+@media screen and (max-width: 768px) {
+  /* 2 columns for smaller screens */
   .grid-sizer {width:50%;}
   .item {width: 50%}
   .item.w2 {width:50%}
@@ -592,13 +592,13 @@ font-variant: small-caps;
 	}
 	
    #custom-page{
-   width: 90%;
+   width: 95%;
    margin:0 auto;
 	}
 	
 	#custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
 	font-size: 16px;
-	line-height: 1.4em;
+	line-height: 1.6em;
 	}
 	
 	#custom-page.article h1{
@@ -663,7 +663,7 @@ font-variant: small-caps;
   .item.w2 {width:40%}
   
   #custom-page{
-   max-width: 720px;
+   width: 90%;
    margin:0 auto;
    
    }
