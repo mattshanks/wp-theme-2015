@@ -596,9 +596,13 @@ font-variant: small-caps;
    margin:0 auto;
 	}
 	
-	.article p{
+	#custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
 	font-size: 16px;
 	line-height: 1.4em;
+	}
+	
+	#custom-page.article h1{
+	font-size:1.8em
 	}
 	
 	
