@@ -750,6 +750,11 @@ opacity:0.5;
    
    }
    
+   #custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
+	font-size: 20px;
+	line-height: 1.9em;
+	}
+   
    .headerimg{
 	margin-top:0px;	
 	width: 350px;
