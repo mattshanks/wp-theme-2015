@@ -44,10 +44,17 @@ get_header(); ?>
 										foreach ( $myposts as $post ) : setup_postdata( $post ); 
 										$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 									?>
-										<div class="relatedarticle col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="<?php the_permalink(); ?>"><img src="<?php echo $curr_feat_image?>"/><?php echo get_the_title($ID) ?></a></div>	
+										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+											<a class="relatedarticle" href="<?php the_permalink(); ?>">
+												<img src="<?php echo $curr_feat_image?>" />
+												<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>
+												<p class="heading"><?php echo get_the_title($ID) ?></p>
+											</a>
+										</div>	
 										<?php endforeach; 
 										wp_reset_postdata();?>
-						</div>
+					
+					</div>
 					
 					<div class="row divider"></div>
 								

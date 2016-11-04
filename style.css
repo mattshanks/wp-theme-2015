@@ -641,17 +641,34 @@ letter-spacing: 0.3em;
 .relatedarticle{
 display:inline-block;
 margin-bottom:60px;
+border: 1px solid #DDD;
+padding-bottom:20px;
+color:black;
 }
+
+.relatedarticle:hover{
+border: 1px solid green;
+box-shadow: 0px 0px 40px #EEE;
+}
+
 
 .relatedarticle img{
 width: 100%;
 padding: 0px 0px 20px 0px;
 }
 
-.relatedarticle a:hover img{
-opacity:0.5;
+
+.relatedarticle .entry-date{
+text-transform:uppercase;
+font-size:0.7em;
+letter-spacing: 0.2em;
+color:#707070;
 }
 
+.relatedarticle p.heading{
+margin: 10px;
+font-size:1.2em;
+}
 
 
 
