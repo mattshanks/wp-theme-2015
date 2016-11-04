@@ -395,6 +395,14 @@ border: 0;
 text-decoration: none;
 }
 
+figure{
+margin-bottom:50px;
+}
+
+figcaption{
+color: #666;
+font-size: 0.8em
+}
 
 
 blockquote{
