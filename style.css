@@ -1004,8 +1004,8 @@ border-radius: 3px;
 #custom-page article{
 	text-align: left;
     margin-bottom: 50px;
-    border-bottom: 1px dashed #707070;
-    padding-bottom: 50px;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 80px;
 }
 
 

@@ -11,7 +11,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php twentyfourteen_post_thumbnail(); ?>
+	
 
 	<header class="entry-header">
 		<div class="entry-meta">
@@ -34,7 +34,7 @@
 
 		
 	</header><!-- .entry-header -->
-	
+	<?php twentyfourteen_post_thumbnail(); ?>
 
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
@@ -57,7 +57,7 @@
 		
 		<?php the_excerpt();?>
 		
-		<a href="<?php echo esc_url( get_permalink() ) ?>">Read More</a>
+		<a href="<?php echo esc_url( get_permalink() ) ?>">Continue reading</a>
 		
 	</div><!-- .entry-content -->
 	<?php endif; ?>
