@@ -98,7 +98,8 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>	
-					<div class="row related">
+					<div class="row divider"></div>
+					<div class="row section related">
 						<h4>Other short adventures</h4>
 							<div id="grid">
 								<?php
