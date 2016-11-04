@@ -163,6 +163,7 @@ visibility:hidden;
 #grid.masonry{
 visibility:visible;
 max-width:1600px;
+margin: 0 auto;
 }
 
 .item{
@@ -309,6 +310,7 @@ font-family: 'FeijoaWeb-MediumItalic';
 
 #custom-page{
 margin: 0 auto;
+padding-bottom: 160px;
 }
 
 #custom-page h1{
@@ -1045,7 +1047,10 @@ margin-bottom:30px;
 .morearticles{
 margin-bottom: 80px;
 padding-bottom: 80px;
-border-bottom: 1px solid black;
+}
+
+.morearticles h2{
+font-family: 'FeijoaWeb-Display', serif;
 }
 
 

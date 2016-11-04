@@ -28,8 +28,16 @@ get_header(); ?>
 								  <?php echo the_content(); ?>								  
 							</div>
 						</div>
-						<div class="row morearticles">
-							<h2>Other articles</h2>
+						
+					</div> <!-- End custom Page -->	
+					
+					<div class="row divider"></div>
+					
+					<div class="row section morearticles">
+							<div class="section-title">
+								Keep reading
+							</div>
+							
 									<?php
 										$args = array( 'posts_per_page' => 3, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'rand');
 										$myposts = get_posts( $args );
@@ -41,12 +49,12 @@ get_header(); ?>
 										wp_reset_postdata();?>
 						</div>
 					
-					
-					
-					</div> <!-- End custom Page -->	
+					<div class="row divider"></div>
 								
-					<div class="row related">
-						<h4>Other short adventures</h4>
+					<div class="row section related">
+						<div class="section-title">
+								Other short adventures
+							</div>
 							<div id="grid">
 								<?php
 									$args = array( 'posts_per_page' => 5, 'exclude' => $thisPostID, 'category_name' => 'prints');
