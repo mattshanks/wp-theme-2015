@@ -333,7 +333,7 @@ font-variant: small-caps;
 letter-spacing: .1em;
 font-size: 1.4em;
 margin-bottom: 40px;
-margin-top: 60px;
+margin-top: 100px;
 }
 
 #custom-page h3{
@@ -696,6 +696,7 @@ font-size:1.2em;
 	}
 	
 	
+	
 	.piece{
 	padding: 0px;
 	}
@@ -705,6 +706,15 @@ font-size:1.2em;
    margin:0 auto;
 	}
 	
+	#custom-page h2{
+	font-variant: small-caps;
+	letter-spacing: .1em;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	}
+	
+	
 	#custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
 	font-size: 16px;
 	line-height: 1.6em;
@@ -713,6 +723,8 @@ font-size:1.2em;
 	#custom-page.article h1{
 	font-size:1.8em
 	}
+	
+	
 	
 	
 	ul#menu-main-menu{
@@ -774,8 +786,8 @@ font-size:1.2em;
   #custom-page{
    max-width: 720px;
    margin:0 auto;
-   
    }
+   
    
    #custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
 	font-size: 20px;
