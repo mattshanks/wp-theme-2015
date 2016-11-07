@@ -818,8 +818,8 @@ font-size:1.2em;
    
    
    #custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
-	font-size: 20px;
-	line-height: 1.9em;
+	font-size: 18px;
+    line-height: 1.8em;
 	}
    
    .headerimg{
