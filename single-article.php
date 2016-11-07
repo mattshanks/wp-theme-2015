@@ -19,8 +19,10 @@ get_header(); ?>
 					$title = get_the_title( $ID );
 					?>
 					<div id="custom-page" class="article">
-						<div class="row">	
+						<div class="row">
+							<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>	
 							<h1><?php echo $title ?></h1>
+							<div class="double-border"></div>
 							<div class="image">
 								<img class="img-responsive main" src="<?php echo $feat_image ?>"/>
 							</div>
