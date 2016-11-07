@@ -34,7 +34,7 @@
 
 		
 	</header><!-- .entry-header -->
-	<?php twentyfourteen_post_thumbnail(); ?>
+	<!--<?php twentyfourteen_post_thumbnail(); ?>-->
 
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
