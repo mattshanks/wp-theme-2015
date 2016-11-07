@@ -337,7 +337,7 @@ color:#777;
 #custom-page.article h1{
 font-family: 'FeijoaWeb-Medium';
 font-size: 1.9em;
-margin-bottom: 40px;
+margin-bottom: 60px;
 margin-top: 00px;
 text-align: center;
 font-variant-ligatures: discretionary-ligatures;
@@ -350,7 +350,7 @@ line-height: 1.2em;
 border-top: 1px solid #DDD;
 height:5px;
 border-bottom: 2px solid #DDD;
-margin-bottom:20px;
+margin-bottom:80px;
 }
 
 #custom-page h2{
