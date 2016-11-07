@@ -23,9 +23,9 @@ get_header(); ?>
 							<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>	
 							<h1><?php echo $title ?></h1>
 							<div class="double-border"></div>
-							<div class="image">
+							<!--<div class="image">
 								<img class="img-responsive main" src="<?php echo $feat_image ?>"/>
-							</div>
+							</div>-->
 							<div class="story">
 								  <?php echo the_content(); ?>								  
 							</div>
