@@ -20,11 +20,11 @@ get_header(); ?>
 		<div class="row section banner">
 				<div class="section-title">Picture books <span class="title-metadata">New and Upcoming</span></div>
 				<div class="col-lg-4 col-md-4 col-sm-4 book">
-					<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
-					<h2>Sleigh Ride</h2>
-					<p>The trailer is decorated, the sun is shining, there's ice in the esky and enough ice-cream for everyone... Giddy up and come along on a fun summer sleigh ride!</p>
-					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
-					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
+					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
+					<a class="img-link" href="http://books.mattshanks.com.au/twinkle-twinkle-little-star-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.png" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" /></a>
+					<h2>Twinkle Twinkle Little Star</h2>
+					<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
+					<h3 class="tk-brandon-grotesque">Available 1 Feb, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.jpg" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
@@ -32,14 +32,15 @@ get_header(); ?>
 					<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html" target="_blank">See more</a>
-				</div>	
+				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4 book">
-					<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>
-					<img class="feature coming-soon" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.png" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" />
-					<h2>Twinkle Twinkle Little Star</h2>
-					<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
-					<h3 class="tk-brandon-grotesque">Available 1 Feb, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
-				</div>			
+					<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
+					<h2>Sleigh Ride</h2>
+					<p>The trailer is decorated, the sun is shining, there's ice in the esky and enough ice-cream for everyone... Giddy up and come along on a fun summer sleigh ride!</p>
+					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
+					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
+				</div>	
+							
 		</div>
 		
 		<div class="row divider"></div>
