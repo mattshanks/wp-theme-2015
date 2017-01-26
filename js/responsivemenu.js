@@ -5,9 +5,6 @@ $(document).ready(function(){
     $("#viewmenu").click(function(){
 	 $("#menu-main-menu").slideToggle(500);
     }); 
-    if ($(window).width() < 768){
-    	$("#menu-main-menu").hide();
-    }
 });
 
 $(window).resize(function() {
