@@ -55,6 +55,7 @@
     <script src="http://code.jquery.com/jquery.js"></script>
 	<script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
 	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
+	<script src="<?php bloginfo('template_directory'); ?>/js/responsivemenu.js"></script>
     <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
 
 	<!--
@@ -123,6 +124,8 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -133,11 +136,14 @@
   ga('send', 'pageview');
 
 </script>
+
+
 	<div class="row header">
     <!--<?php echo do_shortcode('[wp_compact_cart]'); ?>-->
     <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/mattshanks-logo.svg" class="headerimg" width="350" alt="Matt Shanks: Small adventures in words and pictures" /></a>
     <!--<h1><a href="<?php bloginfo('url'); ?>">Matt Shanks</a></h1>
     <h2>short adventures in words &amp; pictures</h2>-->
+	<div id="viewmenu" class="sm-caps">menu</div>
 	<?php wp_nav_menu( array( 'container_class' => 'nav nav-pills sm-caps', 'menu' => 'Main Menu' ) ); ?>
 	
     </div>

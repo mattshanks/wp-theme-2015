@@ -717,6 +717,10 @@ font-size:1.2em;
 	margin-top:40px;
 	}
 	
+	.header {
+	padding-bottom: 0;
+	}
+	
 	.header h1 a{
 	color: red;
 	}
@@ -725,8 +729,7 @@ font-size:1.2em;
 	margin-top:0px;	
 	width: 250px;
 	}
-	
-	
+
 	
 	.piece{
 	padding: 0px;
@@ -753,28 +756,22 @@ font-size:1.2em;
 	
 	#custom-page.article h1{
 	font-size:1.8em
-	
 	}
 	
-	
-	
-	
-	ul#menu-main-menu{
-	display:none;
-	}
-	
-	ul#menu-mobile-menu {
-	display:block;
+	ul#menu-main-menu {
 	border-top: 1px dashed #CCC;
 	border-bottom:0;
+	margin-top:0;
+	margin-bottom: 0;
 	}
 	
-	#menu-mobile-menu li{
+	#menu-main-menu li{
 	display:block;
+	width:100%;
 	border-bottom: 1px dashed #CCC;
 	}
 	
-	#menu-mobile-menu a{
+	#menu-main-menu a{
 	padding:15px;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -783,16 +780,16 @@ font-size:1.2em;
 	border-bottom:0px solid #CCC;
 	}
 	
-	#menu-mobile-menu li:hover{
+	#menu-main-menu li:hover{
 	background: #bbd2b4;
 	}
 	
-	#menu-mobile-menu .current-menu-item{
+	#menu-main-menu .current-menu-item{
 	background: none;
 	color: white;
 	}
 	
-	#menu-mobile-menu a{
+	#menu-main-menu a{
 	border:none;
 	}
 	
@@ -801,6 +798,20 @@ font-size:1.2em;
 	padding: 40px 20px 50px 20px;
 	margin: 0;
 	}	
+	
+	#viewmenu{
+	font-size: 18px;
+	border: 1px solid #EEE;
+	padding: 10px;
+	margin-top: 20px;
+	}
+	
+	#viewmenu:hover{
+	background:black;
+	color: #FFF;
+	cursor:pointer;
+	}
+	
 	
 }
 
@@ -814,6 +825,7 @@ font-size:1.2em;
   .gutter-sizer {width:80%;}
   .item {width:20%;}
   .item.w2 {width:40%}
+  
   
   #custom-page{
    max-width: 720px;
@@ -840,15 +852,13 @@ font-size:1.2em;
    margin: 0 auto;
    }
    
-   	
-	ul#menu-mobile-menu{
-	display:none;
-	}
-	
-	ul#menu-main-menu, .nav{
-	display: block;
-	}
-	
+   #viewmenu{
+   display:none;
+   }
+   
+   
+   
+   
 	   
 }
 
@@ -862,10 +872,6 @@ font-size:1.2em;
    margin:0 auto;
    }
    
-   	
-	ul#menu-mobile-menu{
-	display:none;
-	}
 	
 	#menu-main-menu{
 	display:inline;

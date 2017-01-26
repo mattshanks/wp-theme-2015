@@ -9,7 +9,6 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<?php wp_nav_menu( array( 'container_class' => 'nav nav-pills sm-caps', 'menu' => 'Mobile Menu' ) ); ?>
 
 		</div><!-- #main -->
 
