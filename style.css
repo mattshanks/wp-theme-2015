@@ -900,6 +900,39 @@ margin-bottom: 5px;
 display:block;
 }
 
+.signup{
+border-top: 1px solid #CCC;
+border-top: 1px solid #CCC;
+}
+
+.signup h2{
+text-align:left;
+font-size: 80px;
+}
+
+.signup p, .signup ul, .signup li{
+font-family: 'FeijoaWeb-Medium';
+margin-bottom: 10px;
+}
+
+.signup ul{
+margin-left:60px;
+}
+
+.signup li{
+	margin:0px;
+	padding:0px;
+	text-align:left;
+}
+
+.signup i{
+color: #81d1e5;
+}
+
+.signup img{
+margin-bottom:20px;
+}
+
 
 /* START MailChimp */
 
@@ -913,9 +946,11 @@ background:#fff;
 
 
 
-#mc_embed_signup input.email {
-padding: 8px;
-font-size: 14px;
+#mc_embed_signup input.email, #mc_embed_signup input.name  {
+padding: 12px;
+font-size: 18px;
+width: 80%;
+font-family: 'FeijoaWeb-Medium';
 }
 
 #mc_embed_signup input.button{
@@ -923,10 +958,13 @@ background: black;
 margin-top: 10px;
 width: auto;
 height: auto;
-padding: 12px;
+padding: 12px 20px;
+
 font-size: 1em;
 line-height: 1em;
 font-variant: small-caps;
+font-family: 'FeijoaWeb-Medium';
+background: #52bad5;
 }
 
 #mc_embed_signup label{
