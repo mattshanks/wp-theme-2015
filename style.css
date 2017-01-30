@@ -933,6 +933,25 @@ color: #81d1e5;
 margin-bottom:20px;
 }
 
+.socialmedia{
+border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+text-align:center;
+margin-bottom: 60px;
+}
+
+.socialbutton{
+padding: 40px;
+display:block;
+border: 1px solid white;
+}
+
+.socialbutton:hover {
+border: 1px solid #bbd2b4; 
+z-index: 1000;
+box-shadow: 0px 0px 40px #EEE;
+}
+
 
 /* START MailChimp */
 
@@ -947,15 +966,22 @@ background:#fff;
 
 
 #mc_embed_signup input.email, #mc_embed_signup input.name  {
-padding: 12px;
+padding-top: 20px;
+padding-bottom: 10px;
 font-size: 18px;
-width: 80%;
+width: 100%;
 font-family: 'FeijoaWeb-Medium';
+border-left: 0px;
+border-right:0px;
+border-top:0px;
+border-bottom: 1px dashed #52bad5;
+margin-bottom:8px;
+text-indent:0px;
 }
 
 #mc_embed_signup input.button{
 background: black;
-margin-top: 10px;
+margin-top: 25px;
 width: auto;
 height: auto;
 padding: 12px 20px;

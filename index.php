@@ -123,18 +123,38 @@ get_header(); ?>
 			</form>
 		</div>
 		
-		
-		
-		
-
 	</div>
+	
+	<div class="row section socialmedia col-lg-12 col-md-12 col-sm-12">
+	
+	<h2 class="section-title">Follow on social media to keep up to date</h2>
+	
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+		<a class="socialbutton" href="http://instagram.com/matt_shanks" target="_blank">
+		<i class="fa fa-instagram"></i>Instagram</a>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<a class="socialbutton" href="http://fb.com/mattshanksbooks" target="_blank">
+		<i class="fa fa-facebook"></i>Facebook
+		</a>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<a class="socialbutton" href="https://twitter.com/mattshanks_" target="_blank">
+		<i class="fa fa-twitter"></i>Twitter
+		</a>
+		</div>
+	
+	</div>
+
+
 
 <!--End mc_embed_signup-->
 	
-	<ul class="row continue">
+	<!--<ul class="row continue">
 		<li><a href="http://www.instagram.com/matt_shanks" target="_blank"><i class="fa fa-instagram"></i>More on Instagram</a></li>
-		<!--<li><a href="<?php echo home_url();?>/contact" target=""><i class="fa fa-pencil-square-o"></i>Subscribe for updates</a></li>-->
+		<li><a href="<?php echo home_url();?>/contact" target=""><i class="fa fa-pencil-square-o"></i>Subscribe for updates</a></li>
 	</div>
+	-->
 	
 	
 
