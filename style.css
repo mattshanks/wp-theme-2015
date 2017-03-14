@@ -1144,7 +1144,7 @@ border-radius: 3px;
 
 
 #custom-page article h1.entry-title, #custom-page article h1.entry-title a{
-font-family: 'FeijoaWeb-Display', serif;
+font-family: 'FeijoaWeb-Medium', serif;
     font-variant: normal;
     color: black;
     border-bottom: 0;
@@ -1153,7 +1153,6 @@ font-family: 'FeijoaWeb-Display', serif;
     font-size: 1.4em;
     margin-bottom: 15px;
     margin-top: 10px;
-	font-variant-ligatures: discretionary-ligatures;
 }
 
 #custom-page a.datelink{
