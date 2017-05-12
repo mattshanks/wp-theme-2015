@@ -21,7 +21,7 @@ get_header(); ?>
 				<div class="section-title">Picture books <span class="title-metadata">New and Upcoming</span></div>
 				<div class="col-lg-4 col-md-4 col-sm-4 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
-					<a class="img-link" href="http://books.mattshanks.com.au/twinkle-twinkle-little-star-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.png" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" /></a>
+					<a class="img-link" href="http://books.mattshanks.com.au/twinkle-twinkle-little-star-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.jpg" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" /></a>
 					<h2>Twinkle Twinkle Little Star</h2>
 					<p>Come aboard with the Aussie animals on an adventure down the stream, as they all try to squeeze into a tiny boat. But look out, someone else is following too!</p>
 					<h3 class="tk-brandon-grotesque">Available 1 Feb, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
