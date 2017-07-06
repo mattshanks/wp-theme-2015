@@ -21,7 +21,7 @@ get_header(); ?>
 				<div class="section-title">Picture books <span class="title-metadata">New and Upcoming</span></div>
 				<div class="col-lg-3 col-md-3 col-sm-3 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
-					<a class="img-link" href="http://www.booktopia.com.au/eric-the-postie-matt-shanks/prod9781743811931.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/Eric-Banner.jpg" alt="Eric the Postie, Matt Shanks, Scholastic Australia" /></a>
+					<a class="img-link" href="http://books.mattshanks.com.au/eric-the-postie-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/Eric-Banner.jpg" alt="Eric the Postie, Matt Shanks, Scholastic Australia" /></a>
 					<h2>Eric the Postie</h2>
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$16.99</span><span class="currency">RRP</span></h3>
 				</div>
