@@ -19,27 +19,33 @@ get_header(); ?>
 	<div id="container">
 		<div class="row section banner">
 				<div class="section-title">Picture books <span class="title-metadata">New and Upcoming</span></div>
+				<div class="col-lg-6 col-md-6 col-sm-12 book">
+					<a class="img-link" href="http://www.harpercollins.com.au/9781460751619/koala-bare/"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
+					<!--<h2>Koala Bare</h2>-->
+					<h3 class="tk-brandon-grotesque coming-soon-label">Available Sep 18 <span class="price">$24.99</span><span class="currency">RRP</span></h3>
+				</div>
+				
 				<div class="col-lg-3 col-md-3 col-sm-3 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
 					<a class="img-link" href="http://books.mattshanks.com.au/eric-the-postie-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/Eric-Banner.jpg" alt="Eric the Postie, Matt Shanks, Scholastic Australia" /></a>
-					<h2>Eric the Postie</h2>
+					<!--<h2>Eric the Postie</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$16.99</span><span class="currency">RRP</span></h3>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
 					<a class="img-link" href="http://books.mattshanks.com.au/twinkle-twinkle-little-star-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.jpg" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" /></a>
-					<h2>Twinkle Twinkle Little Star</h2>
+					<!--<h2>Twinkle Twinkle Little Star</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.jpg" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
-					<h2>Row Row Row Your Boat</h2>
+					<!--<h2>Row Row Row Your Boat</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html" target="_blank">See more</a>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
-					<h2>Sleigh Ride</h2>
+					<!--<h2>Sleigh Ride</h2>-->
 					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
 				</div>	
