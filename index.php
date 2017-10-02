@@ -22,7 +22,7 @@ get_header(); ?>
 				<div class="col-lg-6 col-md-6 col-sm-12 book">
 					<a class="img-link" href="http://www.harpercollins.com.au/9781460751619/koala-bare/"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
 					<!--<h2>Koala Bare</h2>-->
-					<h3 class="tk-brandon-grotesque coming-soon-label">Available Sep 18 <span class="price">$24.99</span><span class="currency">RRP</span></h3>
+					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$24.99</span><span class="currency">RRP</span></h3>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
