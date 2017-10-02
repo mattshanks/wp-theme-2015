@@ -24,32 +24,30 @@ get_header(); ?>
 					<!--<h2>Koala Bare</h2>-->
 					<h3 class="tk-brandon-grotesque coming-soon-label">Available Sep 18 <span class="price">$24.99</span><span class="currency">RRP</span></h3>
 				</div>
-				
-				<div class="col-lg-3 col-md-3 col-sm-3 book">
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
 					<a class="img-link" href="http://books.mattshanks.com.au/eric-the-postie-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/Eric-Banner.jpg" alt="Eric the Postie, Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Eric the Postie</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$16.99</span><span class="currency">RRP</span></h3>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 book">
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
 					<a class="img-link" href="http://books.mattshanks.com.au/twinkle-twinkle-little-star-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.jpg" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Twinkle Twinkle Little Star</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 book">
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.jpg" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Row Row Row Your Boat</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html" target="_blank">See more</a>
 				</div>
-				<div class="col-lg-3 col-md-3 col-sm-3 book">
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Sleigh Ride</h2>-->
 					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
-				</div>	
-							
+				</div>					
 		</div>
 		
 		<div class="row divider"></div>
@@ -106,7 +104,7 @@ get_header(); ?>
 
 		<div id="mc_embed_signup" class="col-lg-6 col-md-6 col-sm-12">
 			<h2 class="section-title">10% off your first delivery. Awesome!</h2>
-			<form action="//mattshanks.us9.list-manage.com/subscribe/post?u=74a7c46c509135c0f0d710c0f&amp;id=fe6e864968" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<form action="//mattshanks.us9.list-manage.com/subscribe/post?u=74a7c46c509135c0f0d710c0f&amp;id=fe6e864968SIGNUP=HomePage" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<div id="mc_embed_signup_scroll">
 			<!--<label for="mce-EMAIL">Sign up</label>-->
 			
