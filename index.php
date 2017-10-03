@@ -20,7 +20,7 @@ get_header(); ?>
 		<div class="row section banner">
 				<div class="section-title">Picture books <span class="title-metadata">New and Upcoming</span></div>
 				<div class="col-lg-6 col-md-6 col-sm-12 book">
-					<a class="img-link" href="http://www.harpercollins.com.au/9781460751619/koala-bare/"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
+					<a class="img-link" href="http://books.mattshanks.com.au/koala-bare-jackie-french-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
 					<!--<h2>Koala Bare</h2>-->
 					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$24.99</span><span class="currency">RRP</span></h3>
 				</div>
