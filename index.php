@@ -52,12 +52,42 @@ get_header(); ?>
 					<!--<h2>Heads, Shoulders, Knees and Toe</h2>-->
 					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
-				</div>		
-								
+				</div>			
 		</div>
 		
 		<div class="row divider"></div>
 		
+		<!-- A boat of stars -->
+	
+	<div class="row section book-preview col-lg-12 col-md-12 col-sm-12">
+		<div class="col-lg-5 col-md-4 col-sm-12">
+		<a href="https://www.angusrobertson.com.au/books/a-boat-of-stars/p/9780733337932?utm_medium=32028&utm_source=APD-Affiliate"><img src="<?php bloginfo('template_directory'); ?>/images/abos-cover.jpg" alt="A Boat of Stars, Matt Shanks, ABC Books" width="70%" /></a>
+		</div>
+		<div class="col-lg-7 col-md-8 col-sm-12 content">
+			<h2 class="section-title">A Boat of Stars: New poems to inspire and enchant</h2>	
+			<p>
+				Matt's illustrations are part of a beautiful anthology of new Australian poetry for preschool and primary-aged children, and include some of our country's finest writers and illustrators.
+			</p>
+			<p>
+				<em>
+				A boat of stars came down tonight<br/>
+				and sailed around my bed - <br/>
+				it sprinkled stardust on my eyes, <br/>
+				put dreams inside my head <br/>
+				</em>
+			</p>
+			<p>
+				Open worlds of imagination and explore the magic of everyday life with this enchanting new collection of poetry from some of Australia's most-loved writers and illustrators.
+			</p>
+			<p>
+				Perfect for the classroom and the home, A Boat of Stars will bring a love of language, rhythm and rhyme to every child.
+			</p>
+			<p>For ages 3-10</p>
+			
+				<a class="button tk-brandon-grotesque" href="https://www.angusrobertson.com.au/books/a-boat-of-stars/p/9780733337932?utm_medium=32028&utm_source=APD-Affiliate">Pre-order today for Feb 2018 delivery </a>
+		</div>			
+	</div>
+		<div class="row divider"></div>
 		<div class="row section">
 			<div class="section-title">Short adventures <span class="title-metadata">Prints for sale</span></div>
 			<div id="grid" class="row">
@@ -96,16 +126,18 @@ get_header(); ?>
 					?>	
 			</div>
 		</div>
-		</div><!--#container -->
+	</div><!--#container -->
 	
 	<br clear="both" />
+	
+	
 	
 	<!-- Begin MailChimp Signup Form -->
 
 	<div class="row signup section col-lg-12 col-md-12 col-sm-12">
 	
 		<div class="col-lg-6 col-md-6 col-sm-12">
-		<img src="<?php bloginfo('template_directory'); ?>/images/Subscribe.jpg" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" width="75%" />
+		<img src="<?php bloginfo('template_directory'); ?>/images/Subscribe.jpg" alt="Image of a stork carrying a baby" width="75%" />
 		</div>
 
 		<div id="mc_embed_signup" class="col-lg-6 col-md-6 col-sm-12">

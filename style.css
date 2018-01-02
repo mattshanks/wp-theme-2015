@@ -663,6 +663,44 @@ display:none;
 	
 
 	/* END Styles specifically for the feature banner */
+	
+	.book-preview{
+	}
+	
+	.book-preview img{
+	box-shadow: 0px 0px 40px #999;
+	}
+	
+	.book-preview .content h2, .book-preview .content{
+	text-align:left;
+	}
+	
+	.book-preview .content{
+	font-family: "FeijoaWeb-Medium";
+	}
+	
+	.book-preview .content h2{
+	font-family: "FeijoaWeb-Display";
+	}
+	
+	.book-preview .button{
+	text-transform: uppercase;
+	display:inline-block;
+	background: #4A90E2;
+	color: #FFF;
+	padding: 20px 40px;
+	margin-top: 20px;
+	border-radius: 3px;
+    letter-spacing: 0.2em;
+    font-size: 12px;
+	}
+	
+	.book-preview .button:hover{
+	background: red;
+	}
+	
+	
+	
 
 
 .relatedarticle{
@@ -696,6 +734,8 @@ color:#707070;
 margin: 10px;
 font-size:1.2em;
 }
+
+
 
 
 
@@ -853,9 +893,6 @@ font-size:1.2em;
    display:none;
    }
    
-   
-   
-   
 	   
 }
 
@@ -903,7 +940,7 @@ border-top: 1px solid #CCC;
 
 .signup h2{
 text-align:left;
-font-size: 80px;
+font-size: 40px;
 }
 
 .signup p, .signup ul, .signup li{
