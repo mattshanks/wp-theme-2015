@@ -84,7 +84,7 @@ get_header(); ?>
 			</p>
 			<p>For ages 3-10</p>
 			
-				<a class="button tk-brandon-grotesque" href="https://www.angusrobertson.com.au/books/a-boat-of-stars/p/9780733337932?utm_medium=32028&utm_source=APD-Affiliate">Pre-order today for Feb 2018 delivery </a>
+				<a class="button tk-brandon-grotesque" href="https://www.angusrobertson.com.au/books/a-boat-of-stars/p/9780733337932?utm_medium=32028&utm_source=APD-Affiliate">Order today</a>
 		</div>			
 	</div>
 		<div class="row divider"></div>
