@@ -17,6 +17,48 @@
 get_header(); ?>
 
 	<div id="container">
+		<!-- Begin MailChimp Signup Form -->
+	<div class="row signup section col-lg-12 col-md-12 col-sm-12">
+	
+		<div class="col-lg-6 col-md-6 col-sm-12">
+		<img src="<?php bloginfo('template_directory'); ?>/images/Subscribe.jpg" alt="Image of a stork carrying a baby" width="75%" />
+		</div>
+
+		<div id="mc_embed_signup" class="col-lg-6 col-md-6 col-sm-12">
+			<h2 class="section-title">My mailing list is a good place to start</h2>
+			<form action="//mattshanks.us9.list-manage.com/subscribe/post?u=74a7c46c509135c0f0d710c0f&amp;id=fe6e864968&SIGNUP=HomePage" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div id="mc_embed_signup_scroll">
+			<!--<label for="mce-EMAIL">Sign up</label>-->
+			
+			<p>You'll get things like:</p>
+			<ul class="fa-ul">
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>An inside look at my process for making art</li>
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Art tips and how to get started making your own</li>
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Behind-the-scenes sketches</li>
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Times that I make mistakes</li>
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Early notice about new releases</li>
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Extra artwork you don't see anywhere else</li>
+				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>A round-up of the best illustrators out there in social media</li>
+			</ul>
+			<p>
+				Emails only go out once every 2 months or so - I definitely won't be spamming your inbox
+			</p>
+				<input type="text" value="" name="FNAME" class="name" id="mce-FNAME" placeholder="First name">
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;"><input type="text" name="b_74a7c46c509135c0f0d710c0f_fe6e864968" tabindex="-1" value=""></div>
+				<div class="clear"><input type="submit" value="Raaar, Let's go!" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+				</div>
+			</form>
+		</div>
+		
+	</div>
+	<!-- END Mailchimp -->
+	
+	
+	
+	
 		<div class="row section banner">
 				<div class="section-title">Picture books <span class="title-metadata">Upcoming and Available now</span></div>
 				<div class="col-lg-4 col-md-4 col-sm-12 book">
@@ -130,45 +172,6 @@ get_header(); ?>
 	
 	<br clear="both" />
 	
-	
-	
-	<!-- Begin MailChimp Signup Form -->
-
-	<div class="row signup section col-lg-12 col-md-12 col-sm-12">
-	
-		<div class="col-lg-6 col-md-6 col-sm-12">
-		<img src="<?php bloginfo('template_directory'); ?>/images/Subscribe.jpg" alt="Image of a stork carrying a baby" width="75%" />
-		</div>
-
-		<div id="mc_embed_signup" class="col-lg-6 col-md-6 col-sm-12">
-			<h2 class="section-title">10% off your first delivery. Awesome!</h2>
-			<form action="//mattshanks.us9.list-manage.com/subscribe/post?u=74a7c46c509135c0f0d710c0f&amp;id=fe6e864968&SIGNUP=HomePage" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<div id="mc_embed_signup_scroll">
-			<!--<label for="mce-EMAIL">Sign up</label>-->
-			
-			<p>Plus you'll get: </p>
-			<ul class="fa-ul">
-				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Promo codes for my store</li>
-				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Watercolour tips</li>
-				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Behind-the-scenes sketches</li>
-				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Times that I make mistakes</li>
-				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>Extra artwork you don't see anywhere else</li>
-				<li><i class="fa-li fa fa-check-circle" aria-hidden="true"></i>A round-up of the best illustrators out there in social media</li>
-			</ul>
-			<p>
-				Emails only go out once every 2 months or so - I definitely won't be spamming your inbox.
-			</p>
-				<input type="text" value="" name="FNAME" class="name" id="mce-FNAME" placeholder="First name">
-				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
-
-				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-				<div style="position: absolute; left: -5000px;"><input type="text" name="b_74a7c46c509135c0f0d710c0f_fe6e864968" tabindex="-1" value=""></div>
-				<div class="clear"><input type="submit" value="Send my discount code" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-				</div>
-			</form>
-		</div>
-		
-	</div>
 	
 	<div class="row section socialmedia col-lg-12 col-md-12 col-sm-12">
 	
