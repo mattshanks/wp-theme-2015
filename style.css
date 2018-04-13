@@ -427,7 +427,9 @@ text-decoration: none;
 }
 
 figure{
-margin-bottom:50px;
+margin-bottom: 50px;
+background: #EEE;
+padding: 20px;
 }
 
 figcaption{
