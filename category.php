@@ -14,11 +14,9 @@ get_header(); ?>
 	<div id="custom-page">
 		<section id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
-
 				<?php if ( have_posts() ) : ?>
 				<header class="archive-header">
 					<h1 class="archive-title"><?php printf( __( '', 'twentyfourteen' ), single_cat_title( '', false ) ); ?></h1>
-				
 				</header><!-- .archive-header -->
 
 				<?php

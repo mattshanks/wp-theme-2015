@@ -26,19 +26,19 @@
 			endif;
 
 			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
+				the_title( '<h1>', '</h1>' );
 			else :
 				the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
 			endif;
 		?>
-
-		
-	</header><!-- .entry-header -->
-	<?php twentyfourteen_post_thumbnail(); ?>
+	</header>
+	<!-- .entry-header -->
+	<div class="double-border"></div>
 
 	<?php if ( is_search() ) : ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
+		<?php echo the_content(); ?>
 	</div><!-- .entry-summary -->
 	
 	<?php else : ?>
@@ -55,9 +55,9 @@
 		?>
 		-->
 		
-		<?php the_excerpt();?>
+		<!-- <?php the_excerpt();?> -->
+		<?php echo the_content(); ?>
 		
-		<a href="<?php echo esc_url( get_permalink() ) ?>">Continue reading</a>
 		
 	</div><!-- .entry-content -->
 	<?php endif; ?>

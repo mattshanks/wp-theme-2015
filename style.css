@@ -348,11 +348,11 @@ letter-spacing: 0.15em;
 line-height: 1.2em;
 }
 
-#custom-page.article .double-border{
+.double-border{
 border-top: 1px solid #DDD;
 height:5px;
 border-bottom: 2px solid #DDD;
-margin-bottom:80px;
+margin-bottom:60px;
 }
 
 #custom-page h2{
@@ -360,8 +360,8 @@ font-variant: small-caps;
 letter-spacing: .1em;
 font-size: 1.4em;
  margin-bottom: 40px;
- margin-top: 100px;
-text-align: center;
+ margin-top: 80px;
+text-align: left;
 letter-spacing: 0.1em;
 }
 
@@ -1168,6 +1168,7 @@ border-radius: 3px;
 
 /* article styles */
 
+
 #custom-page article{
 	text-align: left;
     margin-bottom: 50px;
@@ -1178,17 +1179,21 @@ border-radius: 3px;
 
 #custom-page article h1.entry-title, #custom-page article h1.entry-title a{
 font-family: 'FeijoaWeb-Medium', serif;
-    font-variant: normal;
-    color: black;
-    border-bottom: 0;
-    margin-bottom: 20px;
-    display: inline-block;
-    font-size: 1.4em;
-    margin-bottom: 15px;
-    margin-top: 10px;
+color: black;
+border-bottom: 0;
+display: inline-block;
+font-size: 1.4em;
+margin-bottom: 30px;
+margin-top: 10px;
+font-variant: small-caps;
+letter-spacing: 0.15em;
+line-height: 1.2em;
+font-weight: 500;
+text-align:center;
 }
 
-#custom-page a.datelink{
+#custom-page article a.datelink{
+display:block;
 text-transform: uppercase;
 font-variant: normal;
 font-weight: normal;
@@ -1197,6 +1202,7 @@ letter-spacing: 0.1em;
 border-bottom:0px solid;
 text-decoration:none;
 color: #707070;
+text-align: center;
 }
 
 #custom-page article h1.entry-title a:hover{
@@ -1206,7 +1212,7 @@ text-decoration:underline;
 #custom-page .post-thumbnail .wp-post-image{
 width:100%;
 height:auto;
-margin-bottom:30px;
+margin-bottom:30px; 
 }
 
 .morearticles{
@@ -1217,6 +1223,7 @@ padding-bottom: 80px;
 .morearticles h2{
 font-family: 'FeijoaWeb-Display', serif;
 }
+
 
 
 
