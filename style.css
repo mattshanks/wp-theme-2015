@@ -428,13 +428,15 @@ text-decoration: none;
 
 figure{
 margin-bottom: 50px;
-background: #EEE;
-padding: 20px;
+background: #FFF;
+padding-bottom: 10px;
+border-bottom: 1px solid #777;
 }
 
 figcaption{
 color: #666;
-font-size: 0.8em
+font-size: 0.8em;
+margin-top: 10px;
 }
 
 
@@ -1171,7 +1173,7 @@ border-radius: 3px;
 /* article styles */
 
 
-#custom-page article{
+#custom-page article {
 	text-align: left;
     margin-bottom: 50px;
     border-bottom: 1px solid #DDD;
@@ -1187,11 +1189,12 @@ display: inline-block;
 font-size: 1.4em;
 margin-bottom: 30px;
 margin-top: 10px;
-font-variant: small-caps;
 letter-spacing: 0.15em;
 line-height: 1.2em;
 font-weight: 500;
 text-align:center;
+font-variant: small-caps;
+font-variant-ligatures: small-caps;
 }
 
 #custom-page article a.datelink{
@@ -1226,6 +1229,39 @@ padding-bottom: 80px;
 font-family: 'FeijoaWeb-Display', serif;
 }
 
+
+/* Newsletter article footer */
+
+#custom-page #newsletter{
+background: #333;
+padding: 25px;
+color: white;
+margin-bottom: 50px;
+margin-top: 70px;
+}
+
+#custom-page #newsletter h3{
+padding: 0;
+margin: 0;
+margin-bottom: 10px;
+}
+
+#newsletter p{
+margin-bottom: 10px;
+}
+
+#newsletter #mc_embed_signup {
+padding: 0;
+margin: 0;
+background: #333;
+}
+
+#newsletter #mc_embed_signup input{
+width: 100%;
+height: 45px;
+border-radius: 0;
+margin: 2px;
+}
 
 
 
