@@ -1254,11 +1254,12 @@ font-family: 'FeijoaWeb-Display', serif;
 /* Newsletter article footer */
 
 #custom-page #newsletter{
-background: #333;
-padding: 25px;
-color: white;
-margin-bottom: 50px;
-margin-top: 70px;
+border-top: 2px solid #CCC;
+border-bottom: 2px solid #CCC;
+margin-bottom: 30px;
+margin-top: 20px;
+padding: 20px;
+background: #FFF9C4;
 }
 
 #custom-page #newsletter h3{
@@ -1274,7 +1275,7 @@ margin-bottom: 10px;
 #newsletter #mc_embed_signup {
 padding: 0;
 margin: 0;
-background: #333;
+background: #FFF9C4;
 }
 
 #newsletter #mc_embed_signup input{
@@ -1282,6 +1283,8 @@ width: 100%;
 height: 45px;
 border-radius: 0;
 margin: 2px;
+font-family: 'FeijoaWeb-Medium';
+font-size: 1em;
 }
 
 

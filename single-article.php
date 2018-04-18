@@ -29,6 +29,7 @@ get_header(); ?>
 							<div class="story">
 								  <?php echo the_content(); ?>								  
 							</div>
+							
 						</div>
 						
 					</div> <!-- End custom Page -->	

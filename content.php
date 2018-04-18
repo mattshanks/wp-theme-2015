@@ -57,9 +57,10 @@
 		
 		<!-- <?php the_excerpt();?> -->
 		<?php echo the_content(); ?>
+		
 		<div id="newsletter">
-			<h3><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Newsletter</h3>
-			<p>Matt sends out an occassional digest of the week's most interesting and inspiring art, tools and techniques. Why not get yours:</p>
+			<h3>Join the mailing list</h3>
+			<p>Matt sends out an occassional digest of interesting and inspiring art, tools and new techniques. Why not get yours:</p>
 			<!-- Begin MailChimp Signup Form -->
 			 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 			 <div id="mc_embed_signup">
@@ -73,7 +74,6 @@
 			 </form>
 			 </div>
 			 <!--End mc_embed_signup-->
-		
 		</div>
 		
 		
