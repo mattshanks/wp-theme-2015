@@ -295,6 +295,7 @@ color: white;
 
 .btn:hover{
 background: #bbd2b4;
+border-bottom: 0px solid black; 
 }
 
 .table{
@@ -433,6 +434,10 @@ padding-bottom: 10px;
 border-bottom: 1px solid #777;
 }
 
+figure img{
+border: 1px solid #EEE;
+}
+
 figcaption{
 color: #666;
 font-size: 0.8em;
@@ -441,10 +446,15 @@ margin-top: 10px;
 
 
 blockquote{
-font-size:1em;
+font-size:1.2em;
 font-family: 'FeijoaWeb-MediumItalic', serif;
-margin-left: 40px;
-padding-bottom: 5px;
+margin-left: 0px;
+padding:0;
+padding: 00px 0 10px 80px;
+background: url("images/quote-mark.png") no-repeat;
+background-size: 50px;
+border: 0;
+
 }
 
 #download{
@@ -452,19 +462,33 @@ border-top: 2px solid #CCC;
 border-bottom: 2px solid #CCC;
 margin-bottom: 30px;
 margin-top: 20px;
-padding: 20px;
-background: #FFF9C4;
+padding: 30px 0 20px 0;
+background: #FFF;
 }
 
-#download a{
-font-size: 1.2em;
+#custom-page.article #download p.supporting-text, #download p.supporting-text{
+font-variant: small-caps;
+font-size: 0.8em;
+color: #999;
+letter-spacing: 0.5em;
+margin-bottom: 12px;
+}
+
+#download h3{
+font-variant: small-caps;
+margin:0;
+padding:0;
+}
+
+#custom-page.article #download a{
+font-size: 0.8em;
 }
 
 #download p{
 padding:0;
 margin:0;
-font-family: 'FeijoaWeb-MediumItalic';
 color: #707070;
+margin-bottom: 20px;
 }
 
 
@@ -1257,7 +1281,7 @@ font-family: 'FeijoaWeb-Display', serif;
 border-top: 2px solid #CCC;
 border-bottom: 2px solid #CCC;
 margin-bottom: 30px;
-margin-top: 20px;
+margin-top: 50px;
 padding: 20px;
 background: #FFF9C4;
 }
@@ -1287,6 +1311,11 @@ font-family: 'FeijoaWeb-Medium';
 font-size: 1em;
 }
 
+#newsletter #mc_embed_signup input.button{
+background: #000;
+border-radius: 3px;
+margin-top:10px;
+}
 
 
 
