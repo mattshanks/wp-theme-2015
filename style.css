@@ -509,6 +509,18 @@ margin-right: 10px;
 	font-variant: small-caps;
 }
 
+.story img .pull-left{
+width: 300px;
+float: right;
+margin-left: 40px;
+}
+
+.story img .pull-right{
+width: 300px;
+float: left;
+margin-right: 40px;
+}
+
 .dropcap{
 font-size: 4.3em;
 float: left;
