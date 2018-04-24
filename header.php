@@ -34,8 +34,6 @@
 	
 	<!-- Custom Code -->
 	
-	<script src="<?php bloginfo('template_directory'); ?>/js/masonry.js"></script>
-	<script src="<?php bloginfo('template_directory'); ?>/js/imagesloaded.pkgd.min.js"></script>
 	<script src="https://use.fontawesome.com/ea99ff8ccf.js"></script>
 	 
     <!-- Bootstrap -->
@@ -56,7 +54,7 @@
 	<script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
 	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/js/responsivemenu.js"></script>
-    <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
+    <!-- <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css"> -->
 
 	<!--
     <script type="text/javascript">

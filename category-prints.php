@@ -11,6 +11,9 @@
 
 get_header(); ?>
 
+	<!-- <script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>-->
+
 	<div id="">
 		<section id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
