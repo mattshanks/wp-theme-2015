@@ -58,7 +58,7 @@ get_header(); ?>
 							</div>
 							
 									<?php
-										$args = array( 'posts_per_page' => 3, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'rand');
+										$args = array( 'posts_per_page' => 3, 'exclude' => $thisPostID, 'category_name' => 'articles', 'orderby' => 'date');
 										$myposts = get_posts( $args );
 										foreach ( $myposts as $post ) : setup_postdata( $post ); 
 										$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );

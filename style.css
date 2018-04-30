@@ -509,12 +509,12 @@ margin-right: 10px;
 	font-variant: small-caps;
 }
 
-.story img.right-align{
+.story img.right-align, img.right-align{
 float: right;
 margin-left: 40px;
 }
 
-.story img.left-align{
+.story img.left-align, img.left-align{
 float: left;
 margin-right: 40px;
 }
