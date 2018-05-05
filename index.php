@@ -25,7 +25,7 @@ get_header(); ?>
 		</div>
 
 		<div id="mc_embed_signup" class="col-lg-6 col-md-6 col-sm-12">
-			<h2 class="section-title">My mailing list is a good place to start</h2>
+			<h2 class="section-title">Join the tribe and get to know me better</h2>
 			<form action="//mattshanks.us9.list-manage.com/subscribe/post?u=74a7c46c509135c0f0d710c0f&amp;id=fe6e864968&SIGNUP=HomePage" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 			<div id="mc_embed_signup_scroll">
 			<!--<label for="mce-EMAIL">Sign up</label>-->
