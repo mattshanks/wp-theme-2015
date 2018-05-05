@@ -18,7 +18,7 @@
 	
 	<div id="footer" class="row">
 	<?php wp_nav_menu( array( 'container_class' => 'footermenu', 'menu' => 'Footer Menu' ) ); ?>
-	&copy; Matt Shanks 2016-2017. All rights reserved.
+	&copy; Matt Shanks 2018-2019. All rights reserved.
 	
 	</div>
 	
