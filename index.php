@@ -142,7 +142,7 @@ get_header(); ?>
 						if ( have_posts() ) {
 							while ( have_posts() ) {
 								the_post();
-								$permalink = get_permalink( $id, $leavename );
+								$permalink = get_permalink( $id );
 								$feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 								list($width, $height) = getimagesize($feat_image);
 								?>

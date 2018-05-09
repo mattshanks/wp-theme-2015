@@ -27,9 +27,10 @@ get_header(); ?>
 			<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post();
+					$thisPostID = get_the_ID();
 					?>
 					<div id="custom-page">
-					<h2><?php echo get_the_title( $ID ); ?></h2>
+					<h2><?php echo get_the_title( $thisPostID ); ?></h2>
 					<?php echo the_content();?>
 					</div>
 					<?php
