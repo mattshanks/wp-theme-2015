@@ -14,9 +14,9 @@ get_header(); ?>
 				while ( have_posts() ) {
 					the_post();
 					$thisPostID = get_the_ID();
-					$permalink = get_permalink( $id, $leavename );
+					$permalink = get_permalink( $id );
 					$feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
-					$title = get_the_title( $ID );
+					$title = get_the_title( $thisPostID );
 					?>
 					<div id="custom-page" class="article">
 						<div class="row">
@@ -67,7 +67,7 @@ get_header(); ?>
 											<a class="relatedarticle" href="<?php the_permalink(); ?>">
 												<img src="<?php echo $curr_feat_image?>" />
 												<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>
-												<p class="heading"><?php echo get_the_title($ID) ?></p>
+												<p class="heading"><?php echo get_the_title() ?></p>
 											</a>
 										</div>	
 										<?php endforeach; 

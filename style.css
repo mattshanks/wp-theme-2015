@@ -454,7 +454,15 @@ padding: 00px 0 10px 80px;
 background: url("images/quote-mark.png") no-repeat;
 background-size: 50px;
 border: 0;
+}
 
+blockquote.artist-notes	{
+font-size:0.9em;
+font-family: 'FeijoaWeb-MediumItalic', serif;
+padding:0;
+padding: 0;
+background: none;
+border: 0;
 }
 
 #download{
@@ -791,7 +799,10 @@ color:#707070;
 
 .relatedarticle p.heading{
 margin: 10px;
+font-family: 'FeijoaWeb-Medium';
 font-size:1.2em;
+font-variant: small-caps;
+letter-spacing: 0.1em;
 }
 
 

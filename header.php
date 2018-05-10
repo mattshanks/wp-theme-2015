@@ -50,7 +50,7 @@
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
     
-    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>	
 	<script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
 	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/js/responsivemenu.js"></script>

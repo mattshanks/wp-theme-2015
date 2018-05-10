@@ -171,6 +171,32 @@ get_header(); ?>
 	</div><!--#container -->
 	
 	<br clear="both" />
+	<div class="row divider"></div>
+					
+					<div class="row section morearticles">
+							<div class="section-title">
+								Latest from the journal
+							</div>
+							
+									<?php
+										$args = array( 'posts_per_page' => 4, 'category_name' => 'articles', 'orderby' => 'date');
+										$myposts = get_posts( $args );
+										foreach ( $myposts as $post ) : setup_postdata( $post ); 
+										$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+									?>
+										<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+											<a class="relatedarticle" href="<?php the_permalink(); ?>">
+												<img src="<?php echo $curr_feat_image?>" />
+												<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>
+												<p class="heading"><?php echo get_the_title() ?></p>
+											</a>
+										</div>	
+										<?php endforeach; 
+										wp_reset_postdata();?>
+					
+					</div>
+					
+					<div class="row divider"></div>
 	
 	
 	<div class="row section socialmedia col-lg-12 col-md-12 col-sm-12">

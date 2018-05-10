@@ -90,7 +90,7 @@ get_header(); ?>
 									 }
 								  ?>
 								  
-								  <blockquote>
+								  <blockquote class="artist-notes">
 									  Artist notes:
 									  <?php echo $artistnotes ?>
 								  </blockquote>
