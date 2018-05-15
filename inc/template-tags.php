@@ -55,7 +55,7 @@ function twentyfourteen_paging_nav() {
 
 	?>
 	<nav class="navigation paging-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Posts navigation', 'twentyfourteen' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( 'Other journal entries', 'twentyfourteen' ); ?></h1>
 		<div class="pagination loop-pagination">
 			<?php echo $links; ?>
 		</div><!-- .pagination -->
@@ -82,7 +82,7 @@ function twentyfourteen_post_nav() {
 
 	?>
 	<nav class="navigation post-navigation" role="navigation">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'twentyfourteen' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( 'Other articles', 'twentyfourteen' ); ?></h1>
 		<div class="nav-links">
 			<?php
 			if ( is_attachment() ) :

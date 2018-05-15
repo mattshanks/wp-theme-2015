@@ -805,8 +805,32 @@ font-variant: small-caps;
 letter-spacing: 0.1em;
 }
 
+.pagination.loop-pagination{
+border: 0px solid red;
+padding: 0px;
+}
 
+#custom-page nav.navigation h1{
+font-family: 'FeijoaWeb-Medium';
+font-variant: small-caps;
+letter-spacing: 0.1em;
+font-size:1.4em;
+}
 
+#custom-page a.page-numbers{
+border-bottom:0;
+border: 1px solid #DDD;
+padding:5px 14px;
+}
+
+#custom-page .page-numbers.current,
+#custom-page a.page-numbers:hover{
+border-bottom:0;
+border: 1px solid #DDD;
+padding:5px 14px;
+background: #333;
+color: #FFF;
+}
 
 
 
