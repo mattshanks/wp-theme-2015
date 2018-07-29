@@ -87,7 +87,10 @@ text-align:center;
 /*border-bottom:1px solid #EEE;*/
 margin-top:0px;
 padding: 0;
+}
 
+.article ul{
+text-align:center;
 }
 
 ul#menu-main-menu{
