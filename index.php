@@ -62,11 +62,6 @@ get_header(); ?>
 		<div class="row section banner">
 				<div class="section-title">Picture books <span class="title-metadata">Upcoming and Available now</span></div>
 				<div class="col-lg-4 col-md-4 col-sm-12 book">
-					<a class="img-link" href="http://books.mattshanks.com.au/head-shoulders-knees-toes-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/hskt-cover.jpg" alt="Head Shoulders Knees and Toes, Matt Shanks, Scholastic Australia" /></a>
-					<!--<h2>Head, Shoulder, Knees and Toes</h2>-->
-					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$14.99</span><span class="currency">RRP</span></h3>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/koala-bare-jackie-french-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
 					<!--<h2>Koala Bare</h2>-->
 					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$24.99</span><span class="currency">RRP</span></h3>
@@ -78,23 +73,34 @@ get_header(); ?>
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$16.99</span><span class="currency">RRP</span></h3>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 book">
+					<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
+					<!--<h2>Heads, Shoulders, Knees and Toe</h2>-->
+					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
+					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
+				</div>	
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
+					<a class="img-link" href="http://books.mattshanks.com.au/incy-wincy-spider-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/incy-cover.jpg" alt="Incy Wincy Spider, Matt Shanks, Scholastic Australia" /></a>
+					<!--<h2>Head, Shoulder, Knees and Toes</h2>-->
+					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$14.99</span><span class="currency">RRP</span></h3>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
+					<a class="img-link" href="http://books.mattshanks.com.au/head-shoulders-knees-toes-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/hskt-cover.jpg" alt="Head Shoulders Knees and Toes, Matt Shanks, Scholastic Australia" /></a>
+					<!--<h2>Head, Shoulder, Knees and Toes</h2>-->
+					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$14.99</span><span class="currency">RRP</span></h3>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/RRYB-Banner.jpg" alt="Row, Row, Row Your Boat, Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Row Row Row Your Boat</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/row-row-row-your-boat-aussie-nursery-rhyme.html" target="_blank">See more</a>
 				</div>	
-				<div class="col-lg-4 col-md-4 col-sm-12 book">
+				<div class="col-lg-3 col-md-3 col-sm-12 book">
 					<!--<div class="coming-soon-label tk-brandon-grotesque">IN STORE FEB 1st 2017</div>-->
 					<a class="img-link" href="http://books.mattshanks.com.au/twinkle-twinkle-little-star-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/TTLS-Banner.jpg" alt="Twinkle Twinkle Little Star, Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Twinkle Twinkle Little Star</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 book">
-					<a class="img-link" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/SR-cover.jpg"  alt="Sleigh Ride by Matt Shanks, Scholastic Australia" /></a>
-					<!--<h2>Heads, Shoulders, Knees and Toe</h2>-->
-					<h3 class="">Available now, <span class="price">$19.99</span><span class="currency">RRP</span></h3>
-					<a class="button tk-brandon-grotesque" href="http://books.mattshanks.com.au/sleigh-ride-christmas-picture-book.html" target="_blank">See more</a>
-				</div>			
+						
 		</div>
 		
 		<div class="row divider"></div>
