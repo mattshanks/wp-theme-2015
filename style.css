@@ -90,7 +90,8 @@ padding: 0;
 }
 
 .article ul{
-text-align:center;
+text-align:left;
+line-height: 1.8em;
 }
 
 ul#menu-main-menu{

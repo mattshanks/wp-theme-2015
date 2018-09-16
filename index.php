@@ -62,9 +62,9 @@ get_header(); ?>
 		<div class="row section banner">
 				<div class="section-title">Picture books <span class="title-metadata">Upcoming and Available now</span></div>
 				<div class="col-lg-4 col-md-4 col-sm-12 book">
-					<a class="img-link" href="https://www.booktopia.com.au/head-shoulder-knees-and-toes-matt-shanks/prod9781760276942.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/hskt-cover.jpg" alt="Head Shoulders Knees and Toes, Matt Shanks, Scholastic Australia" /></a>
+					<a class="img-link" href="http://books.mattshanks.com.au/head-shoulders-knees-toes-aussie-nursery-rhyme.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/hskt-cover.jpg" alt="Head Shoulders Knees and Toes, Matt Shanks, Scholastic Australia" /></a>
 					<!--<h2>Head, Shoulder, Knees and Toes</h2>-->
-					<h3 class="tk-brandon-grotesque coming-soon-label">Coming April 2018 <span class="price">$14.99</span><span class="currency">RRP</span></h3>
+					<h3 class="tk-brandon-grotesque coming-soon-label">Available Now <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-12 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/koala-bare-jackie-french-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
