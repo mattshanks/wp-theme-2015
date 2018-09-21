@@ -318,6 +318,13 @@ margin-bottom: 50px;
 font-family: 'FeijoaWeb-MediumItalic';
 }
 
+.acknowledgement p{
+font-family: 'FeijoaWeb-Medium';
+max-width:900px;
+margin:auto;
+margin-top: 50px;
+}
+
 #custom-page{
 margin: 0 auto;
 padding-bottom: 160px;
