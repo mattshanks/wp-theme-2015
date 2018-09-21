@@ -182,7 +182,7 @@ get_header(); ?>
 		<div class="row section acknowledgement">
 			<img src="<?php bloginfo('template_directory'); ?>/images/aboriginal-flag.webp" width="100px"/>
 			<img src="<?php bloginfo('template_directory'); ?>/images/torres-strait-flag.webp" width="100px"/>
-			<p>I have lived and worked my whole life in Sydney and Melbourne, Australia. I acknowledge the traditional custodians of the land on which I do my work and I pay my respects to elders past and present. I acknowledge the sorrow of the stolen generations and the impacts of colonisation on Aboriginal and Torres Strait Islander peoples. I also recognise the resilience, strength and pride of the Aboriginal and Torres Strait Islander communities and through my work, aim to <a href="https://medium.com/@astutely/what-am-i-supposed-to-do-with-privilege-29419e1b0741" target="_blank">help as much as I can.</a></p>
+			<p>I have lived and worked my whole life in Sydney and Melbourne, Australia. I acknowledge the traditional custodians of the land on which I do my work and I pay my respects to elders past and present. I acknowledge the sorrow of the stolen generations and the impacts of colonisation on Aboriginal and Torres Strait Islander peoples. I also recognise the resilience, strength and pride of the Aboriginal and Torres Strait Islander communities and through my work, aim to <a href="https://medium.com/@astutely/what-am-i-supposed-to-do-with-privilege-29419e1b0741" target="_blank">help as much as I can</a> to empower and help them thrive.</p>
 		</div>
 	
 	<div class="row divider"></div>
