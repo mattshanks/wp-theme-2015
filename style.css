@@ -777,6 +777,81 @@ display:none;
 	background: red;
 	}
 	
+	.feature-book p{
+	margin-bottom: 20px;
+	}
+	
+	.feature-book .content{
+	text-align:left;
+	font-family: 'FeijoaWeb-Medium';
+	font-size:0.9em;
+	}
+	
+	.feature-book h2{
+	font-variant: small-caps;
+	letter-spacing: 6px;	
+	}
+	
+	.feature-book .age-range{
+	font-family: 'FeijoaWeb-MediumItalic';
+	}
+
+
+	.feature-book h3{
+	font-size:1.2em;
+	font-variant: small-caps;
+	letter-spacing: 4px;
+	text-align:left;
+	padding:0;
+	margin:0 0 10px 0;
+	}
+	
+	#celinesignup{
+	background: #FFF9C4;
+	border: 1px solid #CCCCCC;
+	text-align:left;
+	padding: 20px 15px;
+	margin-top: 20px;
+	}
+	
+	
+	#celinesignup p{
+	
+	}
+	
+	#celinesignup input{
+	width:100%;
+	}
+	
+	#celinesignup .email{
+	padding:10px;
+	margin-bottom: 10px;
+	width:70%;
+	display:inline;
+	}
+	
+	#celinesignup .button{
+	width:auto;
+	background:black;
+	border-radius: 4px;
+	padding:10px 20px;
+	color: #FFFFFF;
+	border:0;
+	font-variant: small-caps;
+	}
+	
+	#youtube{
+	padding:0;
+	margin:0;
+	border:1px solid #CCC;
+	padding:20px 0 20px 0;
+	}
+	
+	#youtube h3{
+	margin-top:15px;
+	}
+	
+	
 	
 	
 
