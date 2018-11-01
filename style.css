@@ -1396,6 +1396,12 @@ height:auto;
 margin-bottom:30px; 
 }
 
+#custom-page .entry-content ul{
+text-align:left;
+margin-left: 60px;
+margin-bottom: 40px;
+}
+
 .morearticles{
 margin-bottom: 80px;
 padding-bottom: 80px;
