@@ -258,11 +258,11 @@ get_header(); ?>
 	
 	<h2 class="section-title">Follow on social media to keep up to date</h2>
 	
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
 		<a class="socialbutton" href="http://instagram.com/matt_shanks" target="_blank">
 		<i class="fa fa-instagram"></i>Instagram</a>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 		<a class="socialbutton" href="https://twitter.com/mattshanks_" target="_blank">
 		<i class="fa fa-twitter"></i>Twitter
 		</a>
