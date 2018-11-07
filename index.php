@@ -263,11 +263,6 @@ get_header(); ?>
 		<i class="fa fa-instagram"></i>Instagram</a>
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-		<a class="socialbutton" href="http://fb.com/mattshanksbooks" target="_blank">
-		<i class="fa fa-facebook"></i>Facebook
-		</a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 		<a class="socialbutton" href="https://twitter.com/mattshanks_" target="_blank">
 		<i class="fa fa-twitter"></i>Twitter
 		</a>
