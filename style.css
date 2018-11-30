@@ -1402,6 +1402,10 @@ margin-left: 60px;
 margin-bottom: 40px;
 }
 
+#custom-page.article figure a{
+font-size: 1em;
+}
+
 .morearticles{
 margin-bottom: 80px;
 padding-bottom: 80px;
