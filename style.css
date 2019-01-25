@@ -92,6 +92,8 @@ padding: 0;
 .article ul{
 text-align:left;
 line-height: 1.8em;
+margin-left: 60px;
+margin-bottom: 25px;
 }
 
 ul#menu-main-menu{
@@ -965,9 +967,14 @@ color: #FFF;
 	}
 	
 	
-	#custom-page.article p, #custom-page .article ul, #custom-page.article ol, #custom-page.article a  {
+	#custom-page.article p, #custom-page.article ul, #custom-page.article ul.article ul li, #custom-page.article ol, #custom-page.article a  {
 	font-size: 16px;
 	line-height: 1.6em;
+	}
+	
+	.article ul{
+	margin-left: 40px;
+	margin-bottom: 25px;
 	}
 	
 	#custom-page.article h1{
