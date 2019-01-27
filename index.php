@@ -20,44 +20,7 @@ get_header(); ?>
 		
 	
 	
-		<!-- Queen Celine -->
 	
-	<div class="row section feature-book col-lg-12 col-md-12 col-sm-12">
-		<div class="col-lg-7 col-md-6 col-sm-12">
-		<img src="<?php bloginfo('template_directory'); ?>/images/QueenC-cover.jpg" alt="A Boat of Stars, Matt Shanks, ABC Books" width="90%" />
-		</div>
-		<div class="col-lg-5 col-md-6 col-sm-12 content">
-			<h2>February 2019<br/>In-store and online</h2>
-			<p class="age-range">For ages 3-10</p>	
-			<p>
-			Celine Beaufort is queen of what she is quite certain is the most beautiful rock pool in the world. It's perfect. And to make sure nothing ever changes, she decides to build a wall around it. Unfortunately, that turns out to be a royal mistake. As self-proclaimed ruler, it's up to Celine to right her wrong and restore her rock pool to its former glory.
-			</p>
-			
-			<div id="youtube" class="row">
-				<div class="col-lg-5 col-md-4 col-sm-12">
-					<a href="https://youtu.be/i6-AQo409gQ" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/queenc-youtube-thumb.jpg" alt="Queen Celine by Matt Shanks" width="100%" /></a>
-				</div>
-				<div class="col-lg-7 col-md-8 col-sm-12">
-					<h3 class="section-title">Watch Matt paint the cover on Youtube</h3>
-				</div>
-			</div>
-			
-			<div id="celinesignup">
-				<h3 class="section-title">Look inside Queen Celine</h3>
-				<p>Register for updates on availability and a look inside the making of Queen Celine including sketches and colour tests</p>
-				<form action="//mattshanks.us9.list-manage.com/subscribe/post?u=74a7c46c509135c0f0d710c0f&amp;id=fe6e864968&SIGNUP=CelineFeature" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-				<div id="mc_embed_signup_scroll">
-					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
-					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					<div style="position: absolute; left: -5000px;"><input type="text" name="b_74a7c46c509135c0f0d710c0f_fe6e864968" tabindex="-1" value=""></div>
-					<input type="submit" value="Register" name="subscribe" id="mc-embedded-subscribe" class="button">
-					</div>
-				</form>
-			</div>
-			
-		</div>
-			
-	</div>
 	
 	<!-- Begin MailChimp Signup Form -->
 		<div class="row signup section col-lg-12 col-md-12 col-sm-12">
@@ -97,11 +60,38 @@ get_header(); ?>
 	</div>
 	<!-- END Mailchimp -->
 	
+	<!-- Queen Celine -->
+	
+	<div class="row section feature-book col-lg-12 col-md-12 col-sm-12">
+		<div class="col-lg-7 col-md-6 col-sm-12">
+		<img src="<?php bloginfo('template_directory'); ?>/images/QueenC-cover.jpg" alt="A Boat of Stars, Matt Shanks, ABC Books" width="90%" />
+		</div>
+		<div class="col-lg-5 col-md-6 col-sm-12 content">
+			<h2>Queen Celine</h2>
+			<p class="age-range">For ages 3-10</p>	
+			<p>
+			Celine Beaufort is queen of what she is quite certain is the most beautiful rock pool in the world. It's perfect. And to make sure nothing ever changes, she decides to build a wall around it. Unfortunately, that turns out to be a royal mistake. As self-proclaimed ruler, it's up to Celine to right her wrong and restore her rock pool to its former glory.
+			</p>
+			<a class="book-preview button tk-brandon-grotesque" href="http://books.mattshanks.com.au/queen-celine-matt-shanks.html">Peek Inside</a>
+			
+			<!--<div id="youtube" class="row">
+				<div class="col-lg-5 col-md-4 col-sm-12">
+					<a href="https://youtu.be/i6-AQo409gQ" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/images/queenc-youtube-thumb.jpg" alt="Queen Celine by Matt Shanks" width="100%" /></a>
+				</div>
+				<div class="col-lg-7 col-md-8 col-sm-12">
+					<h3 class="section-title">Watch Matt paint the cover on Youtube</h3>
+				</div>
+			</div>
+			-->
+		</div>
+			
+	</div>
+	
 	
 	
 	
 		<div class="row section banner">
-				<div class="section-title">Picture books <span class="title-metadata">Upcoming and Available now</span></div>
+				<div class="section-title">Picture books <span class="title-metadata">Available now</span></div>
 				<div class="col-lg-4 col-md-4 col-sm-12 book">
 					<a class="img-link" href="http://books.mattshanks.com.au/koala-bare-jackie-french-matt-shanks.html"><img class="feature" src="<?php bloginfo('template_directory'); ?>/images/koalabare-cover.jpg" alt="Koala Bare, Jackie French and Matt Shanks, HarperCollins Australia" /></a>
 					<!--<h2>Koala Bare</h2>-->
@@ -141,7 +131,6 @@ get_header(); ?>
 					<!--<h2>Twinkle Twinkle Little Star</h2>-->
 					<h3 class="tk-brandon-grotesque">Available now, <span class="price">$14.99</span><span class="currency">RRP</span></h3>
 				</div>
-						
 		</div>
 		
 		<div class="row divider"></div>

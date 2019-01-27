@@ -763,7 +763,7 @@ display:none;
 	font-family: "FeijoaWeb-Display";
 	}
 	
-	.book-preview .button{
+	.book-preview .button, .feature-book .button{
 	text-transform: uppercase;
 	display:inline-block;
 	background: #4A90E2;
@@ -775,7 +775,7 @@ display:none;
     font-size: 12px;
 	}
 	
-	.book-preview .button:hover{
+	.book-preview .button:hover, .feature-book .button:hover{
 	background: red;
 	}
 	
@@ -1121,8 +1121,8 @@ display:block;
 }
 
 .signup{
-border-top: 1px solid #CCC;
-border-top: 1px solid #CCC;
+// border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
 }
 
 .signup h2{
