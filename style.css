@@ -865,12 +865,15 @@ border: 2px solid #DDD;
 padding:2px;
 color:black;
 min-height:170px;
+display:table;
 }
 
 .internalborder{
 border: 1px solid #DDD;
 padding:20px;
 min-height:170px;
+display:table-cell;
+vertical-align:middle;
 }
 
 .relatedarticle:hover{
