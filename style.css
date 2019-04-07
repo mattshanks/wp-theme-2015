@@ -861,13 +861,20 @@ display:none;
 .relatedarticle{
 display:inline-block;
 margin-bottom:60px;
-border: 1px solid #DDD;
-padding-bottom:20px;
+border: 2px solid #DDD;
+padding:2px;
 color:black;
+min-height:170px;
+}
+
+.internalborder{
+border: 1px solid #DDD;
+padding:20px;
+min-height:170px;
 }
 
 .relatedarticle:hover{
-border: 1px solid green;
+border: 2px solid green;
 box-shadow: 0px 0px 40px #EEE;
 }
 
@@ -875,12 +882,13 @@ box-shadow: 0px 0px 40px #EEE;
 .relatedarticle img{
 width: 100%;
 padding: 0px 0px 20px 0px;
+display:none;
 }
 
 
 .relatedarticle .entry-date{
 text-transform:uppercase;
-font-size:0.7em;
+font-size:0.6em;
 letter-spacing: 0.2em;
 color:#707070;
 }
@@ -888,7 +896,7 @@ color:#707070;
 .relatedarticle p.heading{
 margin: 10px;
 font-family: 'FeijoaWeb-Medium';
-font-size:1.2em;
+font-size:1.1em;
 font-variant: small-caps;
 letter-spacing: 0.1em;
 }

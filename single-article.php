@@ -65,9 +65,11 @@ get_header(); ?>
 									?>
 										<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 											<a class="relatedarticle" href="<?php the_permalink(); ?>">
+												<div class="internalborder">
 												<img src="<?php echo $curr_feat_image?>" />
 												<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>
 												<p class="heading"><?php echo get_the_title() ?></p>
+												</div>
 											</a>
 										</div>	
 										<?php endforeach; 

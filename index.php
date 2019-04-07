@@ -229,11 +229,13 @@ get_header(); ?>
 							$curr_feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
 						?>
 							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-								<a class="relatedarticle" href="<?php the_permalink(); ?>">
-									<img src="<?php echo $curr_feat_image?>" />
-									<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>
-									<p class="heading"><?php echo get_the_title() ?></p>
-								</a>
+									<a class="relatedarticle" href="<?php the_permalink(); ?>">
+										<img src="<?php echo $curr_feat_image?>" />
+										<div class="internalborder">
+										<p class="entry-date tk-brandon-grotesque"><?php the_date(); ?></p>
+										<p class="heading"><?php echo get_the_title() ?></p>
+										</div>
+									</a>
 							</div>	
 							<?php endforeach; 
 							wp_reset_postdata();?>
